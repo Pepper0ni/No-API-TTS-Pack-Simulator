@@ -1828,7 +1828,7 @@ function getBox(obj,color,alt)
  }
  boxData.CustomMesh.TypeIndex=6
  selfRot=self.GetRotation()
- packScript=dataString..self.getData().ContainedObjects[1].LuaScript
+ packScript=cardString..energyString..dataString..self.getData().ContainedObjects[1].LuaScript
  if boxPulls then
   boxID=math.random(-2147483648,2147483646)
   packScript='boxPulls='..boxPulls..'\nboxID='..tostring(boxID)..'\n'..packScript

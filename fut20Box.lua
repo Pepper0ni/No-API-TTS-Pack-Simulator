@@ -1,0 +1,231 @@
+setName="Pokémon Futsal Collection"
+DeckID=12949
+date="20200911"
+setID="fut20"
+cardData={{
+ name="Pikachu on the Ball",
+ num="1",
+ rar="",
+ GMN="00025000",
+ typ="44",
+},{
+ name="Eevee on the Ball",
+ num="2",
+ rar="",
+ GMN="00133000",
+ typ="121",
+},{
+ name="Grookey on the Ball",
+ num="3",
+ rar="",
+ GMN="00810000",
+ typ="11",
+},{
+ name="Scorbunny on the Ball",
+ num="4",
+ rar="",
+ GMN="00813000",
+ typ="22",
+},{
+ name="Sobble on the Ball",
+ num="5",
+ rar="",
+ GMN="00816000",
+ typ="33"}}
+
+
+boxScript=[[
+ function onLoad(state)
+ curColumn=tonumber(state)or 9
+ local params={
+  function_owner=self,
+  font_size=180,
+  width=1500,
+  height=220,
+  position={0,1,3.5},
+  tooltip="The number of packs per column",
+  value=tostring(curColumn),
+  alignment=3,
+  input_function="SetColumn",
+  font_color={0,0,0},
+ }
+ self.createInput(params)
+ butWrapper(params,{0,1,2.5},"Spread Compact","Spreads the contained objects close together","SpreadCompact")
+ butWrapper(params,{0,1,3},"Spread Wide","Spreads the packs wide enough to not collide when opening.","SpreadWide")
+end
+
+function butWrapper(params,pos,label,tool,func)
+ params.position=pos
+ params.label=label
+ params.tooltip=tool
+ params.click_function=func
+ self.createButton(params)
+end
+
+function SetColumn(obj,color,value,selected)
+ if not selected then
+  curColumn=checkIfNum(value,1000,curColumn,color)
+  self.script_state=tostring(curColumn)
+  return tostring(curColumn)
+ end
+end
+
+function checkIfNum(value,max,current,color)
+ local numValue=tonumber(value)
+ if numValue!=nil then
+  numValue=math.floor(numValue)
+  if numValue>0 then
+   if numValue<=max then return numValue else broadcastToColor("Enter a lower number.",color,{1,0,0})end
+  else broadcastToColor("Enter a number above 0.",color,{1,0,0})end
+ else broadcastToColor("Enter a number.",color,{1,0,0})end
+ return current
+end
+
+function SpreadCompact()
+ Spread(-4)
+end
+
+function SpreadWide()
+ Spread(-50)
+end
+
+function Spread(width)
+ for c,pack in pairs(self.getObjects())do
+  self.takeObject({position=self.positionToWorld({width*math.floor((c-1)/curColumn),1,7+6*((c-1)%curColumn)}),smooth=true})
+ end
+end
+]]
+
+function makeDataString()
+ local str=logString(cardData)
+ str=string.gsub(str,"  +\""," ")
+ str=string.gsub(str," 1: ","{{")
+ str=string.gsub(str," +%d+: ","},{")
+ str=string.gsub(str,"\": ","=\"")
+ str=string.gsub(str,"([^%{%}])\n","%1\",\n")
+ str='setName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\ncardData='..str..'"}}\n'
+ if subSetID then
+  str=str..'\nsize='..tostring(size)..'\nsubSetID="'..subSetID..'"\n'
+ end
+ return str
+end
+
+dataString=makeDataString()
+
+packData={}
+
+function onObjectLeaveContainer(cont,leaving)
+ if cont~=self then return end
+end
+
+function onNumberTyped(color,num)--credit Eldin
+ for x=1,num do Wait.frames(function()self.deal(1,color)end,x)end
+ return true
+end
+
+function onLoad()
+ setUpButtons()
+end
+
+function setUpButtons()
+ local params={
+ function_owner=self,
+ width=3500,
+ height=500,
+ font_size=450,
+ }
+ butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
+end
+
+function butWrapper(params,pos,label,tool,func)
+ params.position=pos
+ params.label=label
+ params.tooltip=tool
+ params.click_function=func
+ self.createButton(params)
+end
+
+function getSet(obj,color,alt)
+ local spawnPos=self.positionToWorld({0,1,7})
+ packData=getDeckData(spawnPos,self.getRotation(),false)
+ for a=1,#cardData do
+  addCard(packs,a)
+ end
+ local deck=spawnObjectData({data=packData})
+end
+
+function getDeckData(spawnPos,cardRot,hands)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
+end
+
+function getDeckID(num)
+ return cardData[num].ID or DeckID+num
+end
+
+function addCard(packs,num)
+ packData.DeckIDs[#packData.DeckIDs+1]=(getDeckID(num))*100
+ packData.CustomDeck[getDeckID(num)]=getCustomData(num)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num)
+end
+
+function getCardTable(trans,num)
+ local des=cardData[num].setName or setName
+ if cardData[num].num then
+  des=des.." #"..cardData[num].num
+ end
+ if cardData[num].rar then
+  des=des.." "..cardData[num].rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=cardData[num].name,
+ Description=des,
+ GMNotes=cardData[num].GMN,
+ Memo=(cardData[num].date or date)..buildCardNumber(cardData[num].num,3),
+ CardID=getDeckID(num)*100,
+ CustomDeck={[getDeckID(num)]=getCustomData(num)},
+ LuaScriptState=cardData[num].typ
+}
+end
+
+function getCustomData(num)
+ local image=cardData[num].image
+ if not image then
+  local ID=setID
+  if subSetID and num>size then
+   ID=subSetID
+  end
+   image="https://images.pokemontcg.io/"..ID.."/"..cardData[num].num.."_hires.png?count="..buildCardNumber(cardData[num].num,1)
+ end
+ return{FaceURL=image,
+  BackURL="https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
+ }
+end
+
+function buildCardNumber(cardNum,minDigit)
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
+  end
+ else
+  cardNum="0"
+ end
+ while #cardNum<minDigit do cardNum="0"..cardNum end
+ return cardNum
+end

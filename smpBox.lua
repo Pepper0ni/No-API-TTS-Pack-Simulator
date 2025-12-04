@@ -1,0 +1,1903 @@
+setName="SM Black Star Promos"
+DeckID=9016
+date="20170203"
+setID="smp"
+cardString=[[
+cardData={["SM01"]={
+ name="Rowlet",
+ GMN="00722000",
+ typ="11",
+ rar="P",
+ ID=9017
+},
+["SM02"]={
+ name="Litten",
+ GMN="00725000",
+ typ="22",
+ rar="P",
+ ID=9018
+},
+["SM03"]={
+ name="Popplio",
+ GMN="00728000",
+ typ="33",
+ rar="P",
+ ID=9019
+},
+["SM04"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9020
+},
+["SM05"]={
+ name="Snorlax-GX",
+ GMN="00143005",
+ typ="121",
+ rar="P",
+ ID=9021
+},
+["SM06"]={
+ name="Rockruff",
+ GMN="00744000",
+ typ="66",
+ rar="P",
+ ID=9022
+},
+["SM07"]={
+ name="Pikipek",
+ GMN="00731000",
+ typ="121",
+ rar="P",
+ ID=9023
+},
+["SM08"]={
+ name="Litten",
+ GMN="00725000",
+ typ="22",
+ rar="P",
+ ID=9024
+},
+["SM09"]={
+ name="Togedemaru",
+ GMN="00777000",
+ typ="44",
+ rar="P",
+ ID=9025
+},
+["SM10"]={
+ name="Shiinotic",
+ GMN="00756000",
+ typ="11",
+ rar="P",
+ ID=9026
+},
+["SM11"]={
+ name="Bruxish",
+ GMN="00779000",
+ typ="33",
+ rar="P",
+ ID=9027
+},
+["SM12"]={
+ name="Passimian",
+ GMN="00766000",
+ typ="66",
+ rar="P",
+ ID=9028
+},
+["SM13"]={
+ name="Oranguru",
+ GMN="00765000",
+ typ="121",
+ rar="P",
+ ID=9029
+},
+["SM14"]={
+ name="Lycanroc-GX",
+ GMN="00745005",
+ typ="66",
+ rar="P",
+ ID=9030
+},
+["SM15"]={
+ name="Zygarde",
+ GMN="00718000",
+ typ="66",
+ rar="P",
+ ID=9031
+},
+["SM16"]={
+ name="Solgaleo-GX",
+ GMN="00791005",
+ typ="88",
+ rar="P",
+ ID=9032
+},
+["SM17"]={
+ name="Lunala-GX",
+ GMN="00792005",
+ typ="55",
+ rar="P",
+ ID=9033
+},
+["SM18"]={
+ name="Alolan Sandslash",
+ GMN="00028000",
+ typ="33",
+ rar="P",
+ ID=9034
+},
+["SM19"]={
+ name="Oricorio",
+ GMN="00741000",
+ typ="55",
+ rar="P",
+ ID=9035
+},
+["SM20"]={
+ name="Mudsdale",
+ GMN="00750000",
+ typ="66",
+ rar="P",
+ ID=9036
+},
+["SM21"]={
+ name="Drampa",
+ GMN="00780000",
+ typ="110",
+ rar="P",
+ ID=9037
+},
+["SM22"]={
+ name="Rowlet",
+ GMN="00722000",
+ typ="11",
+ rar="P",
+ ID=9038
+},
+["SM23"]={
+ name="Litten",
+ GMN="00725000",
+ typ="22",
+ rar="P",
+ ID=9039
+},
+["SM24"]={
+ name="Popplio",
+ GMN="00728000",
+ typ="33",
+ rar="P",
+ ID=9040
+},
+["SM25"]={
+ name="Lurantis",
+ GMN="00754000",
+ typ="11",
+ rar="P",
+ ID=9041
+},
+["SM26"]={
+ name="Tsareena",
+ GMN="00763000",
+ typ="11",
+ rar="P",
+ ID=9042
+},
+["SM27"]={
+ name="Turtonator",
+ GMN="00776000",
+ typ="22",
+ rar="P",
+ ID=9043
+},
+["SM28"]={
+ name="Vikavolt",
+ GMN="00738000",
+ typ="44",
+ rar="P",
+ ID=9044
+},
+["SM29"]={
+ name="Mimikyu",
+ GMN="00778000",
+ typ="55",
+ rar="P",
+ ID=9045
+},
+["SM30"]={
+ name="Tapu Koko",
+ GMN="00785000",
+ typ="44",
+ rar="P",
+ ID=9046
+},
+["SM30a"]={
+ name="Tapu Koko",
+ GMN="00785000",
+ typ="44",
+ rar="P",
+ ID=9047
+},
+["SM31"]={
+ name="Tapu Koko",
+ GMN="00785000",
+ typ="44",
+ rar="P",
+ ID=9048
+},
+["SM32"]={
+ name="Tapu Bulu-GX",
+ GMN="00787005",
+ typ="11",
+ rar="P",
+ ID=9049
+},
+["SM33"]={
+ name="Tapu Koko-GX",
+ GMN="00785005",
+ typ="44",
+ rar="P",
+ ID=9050
+},
+["SM34"]={
+ name="Bewear-GX",
+ GMN="00760005",
+ typ="121",
+ rar="P",
+ ID=9051
+},
+["SM35"]={
+ name="Espeon-GX",
+ GMN="00136105",
+ typ="55",
+ rar="P",
+ ID=9052
+},
+["SM36"]={
+ name="Umbreon-GX",
+ GMN="00136205",
+ typ="77",
+ rar="P",
+ ID=9053
+},
+["SM37"]={
+ name="Decidueye-GX",
+ GMN="00724005",
+ typ="11",
+ rar="P",
+ ID=9054
+},
+["SM38"]={
+ name="Incineroar-GX",
+ GMN="00727005",
+ typ="22",
+ rar="P",
+ ID=9055
+},
+["SM39"]={
+ name="Primarina-GX",
+ GMN="00730005",
+ typ="33",
+ rar="P",
+ ID=9056
+},
+["SM40"]={
+ name="Jangmo-o",
+ GMN="00782000",
+ typ="110",
+ rar="P",
+ ID=9057
+},
+["SM41"]={
+ name="Komala",
+ GMN="00775000",
+ typ="121",
+ rar="P",
+ ID=9058
+},
+["SM42"]={
+ name="Cosmog",
+ GMN="00789000",
+ typ="55",
+ rar="P",
+ ID=9059
+},
+["SM43"]={
+ name="Alolan Meowth",
+ GMN="00052000",
+ typ="77",
+ rar="P",
+ ID=9060
+},
+["SM44"]={
+ name="Togedemaru",
+ GMN="00777000",
+ typ="44",
+ rar="P",
+ ID=9061
+},
+["SM45"]={
+ name="Tapu Lele",
+ GMN="00786000",
+ typ="55",
+ rar="P",
+ ID=9062
+},
+["SM46"]={
+ name="Seviper",
+ GMN="00336000",
+ typ="55",
+ rar="P",
+ ID=9063
+},
+["SM47"]={
+ name="Crabominable",
+ GMN="00740000",
+ typ="66",
+ rar="P",
+ ID=9064
+},
+["SM48"]={
+ name="Zygarde",
+ GMN="00718000",
+ typ="110",
+ rar="P",
+ ID=9065
+},
+["SM49"]={
+ name="Bewear",
+ GMN="00760000",
+ typ="121",
+ rar="P",
+ ID=9066
+},
+["SM50"]={
+ name="Tapu Koko-GX",
+ GMN="00785005",
+ typ="44",
+ rar="P",
+ ID=9067
+},
+["SM51"]={
+ name="Alolan Meowth",
+ GMN="00052000",
+ typ="77",
+ rar="P",
+ ID=9068
+},
+["SM52"]={
+ name="Golisopod",
+ GMN="00768000",
+ typ="11",
+ rar="P",
+ ID=9069
+},
+["SM53"]={
+ name="Dhelmise",
+ GMN="00781000",
+ typ="55",
+ rar="P",
+ ID=9070
+},
+["SM54"]={
+ name="Lucario",
+ GMN="00448000",
+ typ="66",
+ rar="P",
+ ID=9071
+},
+["SM55"]={
+ name="Decidueye",
+ GMN="00724000",
+ typ="11",
+ rar="P",
+ ID=9072
+},
+["SM56"]={
+ name="Tsareena-GX",
+ GMN="00763005",
+ typ="11",
+ rar="P",
+ ID=9073
+},
+["SM57"]={
+ name="Ho-Oh-GX",
+ GMN="00250005",
+ typ="22",
+ rar="P",
+ ID=9074
+},
+["SM58"]={
+ name="Necrozma-GX",
+ GMN="00800005",
+ typ="55",
+ rar="P",
+ ID=9075
+},
+["SM59"]={
+ name="Marshadow-GX",
+ GMN="00802005",
+ typ="66",
+ rar="P",
+ ID=9076
+},
+["SM60"]={
+ name="Charizard-GX",
+ GMN="00006005",
+ typ="22",
+ rar="P",
+ ID=9077
+},
+["SM61"]={
+ name="Tapu Bulu",
+ GMN="00787000",
+ typ="11",
+ rar="P",
+ ID=9078
+},
+["SM62"]={
+ name="Golisopod-GX",
+ GMN="00768005",
+ typ="11",
+ rar="P",
+ ID=9079
+},
+["SM63"]={
+ name="Salazzle-GX",
+ GMN="00758005",
+ typ="22",
+ rar="P",
+ ID=9080
+},
+["SM64"]={
+ name="Silvally",
+ GMN="00773000",
+ typ="121",
+ rar="P",
+ ID=9081
+},
+["SM65"]={
+ name="Alolan Raichu",
+ GMN="00026000",
+ typ="44",
+ rar="P",
+ ID=9082
+},
+["SM66"]={
+ name="Pheromosa-GX",
+ GMN="00795005",
+ typ="11",
+ rar="P",
+ ID=9083
+},
+["SM67"]={
+ name="Celesteela-GX",
+ GMN="00797005",
+ typ="88",
+ rar="P",
+ ID=9084
+},
+["SM68"]={
+ name="Xurkitree-GX",
+ GMN="00796005",
+ typ="44",
+ rar="P",
+ ID=9085
+},
+["SM69"]={
+ name="Buzzwole-GX",
+ GMN="00794005",
+ typ="66",
+ rar="P",
+ ID=9086
+},
+["SM70"]={
+ name="Shining Ho-Oh",
+ GMN="00250000",
+ typ="22",
+ rar="P",
+ ID=9087
+},
+["SM71"]={
+ name="Kommo-o-GX",
+ GMN="00784005",
+ typ="110",
+ rar="P",
+ ID=9088
+},
+["SM72"]={
+ name="Alolan Raichu",
+ GMN="00026000",
+ typ="44",
+ rar="P",
+ ID=9089
+},
+["SM73"]={
+ name="Salazzle",
+ GMN="00758000",
+ typ="55",
+ rar="P",
+ ID=9090
+},
+["SM74"]={
+ name="Regirock",
+ GMN="00377000",
+ typ="66",
+ rar="P",
+ ID=9091
+},
+["SM75"]={
+ name="Registeel",
+ GMN="00379000",
+ typ="88",
+ rar="P",
+ ID=9092
+},
+["SM76"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9093
+},
+["SM77"]={
+ name="Mewtwo",
+ GMN="00150000",
+ typ="55",
+ rar="P",
+ ID=9094
+},
+["SM78"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=9095
+},
+["SM79"]={
+ name="Shining Celebi",
+ GMN="00251000",
+ typ="11",
+ rar="P",
+ ID=9096
+},
+["SM80"]={
+ name="Ho-Oh-GX",
+ GMN="00250005",
+ typ="22",
+ rar="P",
+ ID=9097
+},
+["SM81"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9098
+},
+["SM82"]={
+ name="Shining Lugia",
+ GMN="00249000",
+ typ="121",
+ rar="P",
+ ID=9099
+},
+["SM83"]={
+ name="Zorua",
+ GMN="00570000",
+ typ="77",
+ rar="P",
+ ID=9100
+},
+["SM84"]={
+ name="Zoroark-GX",
+ GMN="00571005",
+ typ="77",
+ rar="P",
+ ID=9101
+},
+["SM85"]={
+ name="Marshadow",
+ GMN="00802000",
+ typ="55",
+ rar="P",
+ ID=9102
+},
+["SM86"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9103
+},
+["SM87"]={
+ name="Latias",
+ GMN="00380000",
+ typ="55",
+ rar="P",
+ ID=9104
+},
+["SM88"]={
+ name="Latios",
+ GMN="00381000",
+ typ="55",
+ rar="P",
+ ID=9105
+},
+["SM89"]={
+ name="Zoroark",
+ GMN="00571000",
+ typ="77",
+ rar="P",
+ ID=9106
+},
+["SM90"]={
+ name="Raichu-GX",
+ GMN="00026005",
+ typ="44",
+ rar="P",
+ ID=9107
+},
+["SM91"]={
+ name="Silvally-GX",
+ GMN="00773005",
+ typ="121",
+ rar="P",
+ ID=9108
+},
+["SM92"]={
+ name="Tapu Fini",
+ GMN="00788000",
+ typ="33",
+ rar="P",
+ ID=9109
+},
+["SM93"]={
+ name="Marshadow",
+ GMN="00802000",
+ typ="55",
+ rar="P",
+ ID=9110
+},
+["SM94"]={
+ name="Wash Rotom",
+ GMN="00479000",
+ typ="33",
+ rar="P",
+ ID=9111
+},
+["SM95"]={
+ name="Lucario",
+ GMN="00448000",
+ typ="66",
+ rar="P",
+ ID=9112
+},
+["SM96"]={
+ name="Heatran",
+ GMN="00485000",
+ typ="88",
+ rar="P",
+ ID=9113
+},
+["SM97"]={
+ name="Gumshoos",
+ GMN="00735000",
+ typ="121",
+ rar="P",
+ ID=9114
+},
+["SM98"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9115
+},
+["SM99"]={
+ name="Mimikyu",
+ GMN="00778000",
+ typ="55",
+ rar="P",
+ ID=9116
+},
+["SM100"]={
+ name="Lucario-GX",
+ GMN="00448005",
+ typ="66",
+ rar="P",
+ ID=9117
+},
+["SM101"]={
+ name="Dawn Wings Necrozma-GX",
+ GMN="00800005",
+ typ="55",
+ rar="P",
+ ID=9118
+},
+["SM102"]={
+ name="Dusk Mane Necrozma-GX",
+ GMN="00800005",
+ typ="88",
+ rar="P",
+ ID=9119
+},
+["SM103"]={
+ name="Lunala-GX",
+ GMN="00792005",
+ typ="55",
+ rar="P",
+ ID=9120
+},
+["SM103a"]={
+ name="Lunala-GX",
+ GMN="00792005",
+ typ="55",
+ rar="P",
+ ID=9121
+},
+["SM104"]={
+ name="Solgaleo-GX",
+ GMN="00791005",
+ typ="88",
+ rar="P",
+ ID=9122
+},
+["SM104a"]={
+ name="Solgaleo-GX",
+ GMN="00791005",
+ typ="88",
+ rar="P",
+ ID=9123
+},
+["SM105"]={
+ name="Lycanroc",
+ GMN="00745000",
+ typ="66",
+ rar="P",
+ ID=9124
+},
+["SM106"]={
+ name="Dawn Wings Necrozma",
+ GMN="00800000",
+ typ="55",
+ rar="P",
+ ID=9125
+},
+["SM107"]={
+ name="Dusk Mane Necrozma",
+ GMN="00800000",
+ typ="88",
+ rar="P",
+ ID=9126
+},
+["SM108"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9127
+},
+["SM109"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9128
+},
+["SM110"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9129
+},
+["SM111"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9130
+},
+["SM112"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9131
+},
+["SM113"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9132
+},
+["SM114"]={
+ name="Ash's Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9133
+},
+["SM115"]={
+ name="Pheromosa",
+ GMN="00795000",
+ typ="11",
+ rar="P",
+ ID=9134
+},
+["SM116"]={
+ name="Xurkitree",
+ GMN="00796000",
+ typ="44",
+ rar="P",
+ ID=9135
+},
+["SM117"]={
+ name="Malamar",
+ GMN="00687000",
+ typ="55",
+ rar="P",
+ ID=9136
+},
+["SM118"]={
+ name="Lycanroc",
+ GMN="00745000",
+ typ="66",
+ rar="P",
+ ID=9137
+},
+["SM119"]={
+ name="Exeggcute",
+ GMN="00102000",
+ typ="11",
+ rar="P",
+ ID=9138
+},
+["SM120"]={
+ name="Rockruff",
+ GMN="00744000",
+ typ="66",
+ rar="P",
+ ID=9139
+},
+["SM121"]={
+ name="Raikou-GX",
+ GMN="00243005",
+ typ="44",
+ rar="P",
+ ID=9140
+},
+["SM122"]={
+ name="Zygarde-GX",
+ GMN="00718005",
+ typ="66",
+ rar="P",
+ ID=9141
+},
+["SM123"]={
+ name="Dawn Wings Necrozma",
+ GMN="00800000",
+ typ="55",
+ rar="P",
+ ID=9142
+},
+["SM124"]={
+ name="Dusk Mane Necrozma",
+ GMN="00800000",
+ typ="88",
+ rar="P",
+ ID=9143
+},
+["SM125"]={
+ name="Naganadel-GX",
+ GMN="00804005",
+ typ="55",
+ rar="P",
+ ID=9144
+},
+["SM126"]={
+ name="Ultra Necrozma-GX",
+ GMN="00800005",
+ typ="110",
+ rar="P",
+ ID=9145
+},
+["SM127"]={
+ name="Alolan Sandslash",
+ GMN="00028000",
+ typ="88",
+ rar="P",
+ ID=9146
+},
+["SM128"]={
+ name="Alolan Ninetales",
+ GMN="00038000",
+ typ="99",
+ rar="P",
+ ID=9147
+},
+["SM129"]={
+ name="Kyogre",
+ GMN="00382000",
+ typ="33",
+ rar="P",
+ ID=9148
+},
+["SM130"]={
+ name="Manectric",
+ GMN="00310000",
+ typ="44",
+ rar="P",
+ ID=9149
+},
+["SM131"]={
+ name="Celesteela",
+ GMN="00797000",
+ typ="88",
+ rar="P",
+ ID=9150
+},
+["SM132"]={
+ name="Delcatty",
+ GMN="00301000",
+ typ="121",
+ rar="P",
+ ID=9151
+},
+["SM133"]={
+ name="Thundurus-GX",
+ GMN="00642005",
+ typ="44",
+ rar="P",
+ ID=9152
+},
+["SM134"]={
+ name="Tornadus-GX",
+ GMN="00641005",
+ typ="121",
+ rar="P",
+ ID=9153
+},
+["SM135"]={
+ name="Latias",
+ GMN="00380000",
+ typ="110",
+ rar="P",
+ ID=9154
+},
+["SM136"]={
+ name="Latios",
+ GMN="00381000",
+ typ="110",
+ rar="P",
+ ID=9155
+},
+["SM137"]={
+ name="Reshiram-GX",
+ GMN="00643005",
+ typ="22",
+ rar="P",
+ ID=9156
+},
+["SM138"]={
+ name="Zekrom-GX",
+ GMN="00644005",
+ typ="44",
+ rar="P",
+ ID=9157
+},
+["SM139"]={
+ name="Salamence-GX",
+ GMN="00373005",
+ typ="110",
+ rar="P",
+ ID=9158
+},
+["SM140"]={
+ name="Salamence",
+ GMN="00373000",
+ typ="110",
+ rar="P",
+ ID=9159
+},
+["SM141"]={
+ name="White Kyurem-GX",
+ GMN="00646005",
+ typ="110",
+ rar="P",
+ ID=9160
+},
+["SM142"]={
+ name="Kyurem",
+ GMN="00646000",
+ typ="110",
+ rar="P",
+ ID=9161
+},
+["SM143"]={
+ name="Moltres",
+ GMN="00146000",
+ typ="22",
+ rar="P",
+ ID=9162
+},
+["SM144"]={
+ name="Articuno",
+ GMN="00144000",
+ typ="33",
+ rar="P",
+ ID=9163
+},
+["SM145"]={
+ name="Zapdos",
+ GMN="00145000",
+ typ="44",
+ rar="P",
+ ID=9164
+},
+["SM146"]={
+ name="Leafeon-GX",
+ GMN="00136305",
+ typ="11",
+ rar="P",
+ ID=9165
+},
+["SM147"]={
+ name="Glaceon-GX",
+ GMN="00136405",
+ typ="33",
+ rar="P",
+ ID=9166
+},
+["SM148"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=9167
+},
+["SM149"]={
+ name="Suicune",
+ GMN="00245000",
+ typ="33",
+ rar="P",
+ ID=9168
+},
+["SM150"]={
+ name="Raikou",
+ GMN="00243000",
+ typ="44",
+ rar="P",
+ ID=9169
+},
+["SM151"]={
+ name="Giratina",
+ GMN="00487000",
+ typ="55",
+ rar="P",
+ ID=9170
+},
+["SM152"]={
+ name="Tapu Lele",
+ GMN="00786000",
+ typ="99",
+ rar="P",
+ ID=9171
+},
+["SM153"]={
+ name="Rowlet",
+ GMN="00722000",
+ typ="11",
+ rar="P",
+ ID=9172
+},
+["SM154"]={
+ name="Salandit",
+ GMN="00757000",
+ typ="22",
+ rar="P",
+ ID=9173
+},
+["SM155"]={
+ name="Kingdra-GX",
+ GMN="00117505",
+ typ="33",
+ rar="P",
+ ID=9174
+},
+["SM156"]={
+ name="Dragonite-GX",
+ GMN="00149005",
+ typ="110",
+ rar="P",
+ ID=9175
+},
+["SM157"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9176
+},
+["SM158"]={
+ name="Charizard",
+ GMN="00006000",
+ typ="22",
+ rar="P",
+ ID=9177
+},
+["SM159"]={
+ name="Zapdos",
+ GMN="00145000",
+ typ="44",
+ rar="P",
+ ID=9178
+},
+["SM160"]={
+ name="Nidoqueen",
+ GMN="00031000",
+ typ="55",
+ rar="P",
+ ID=9179
+},
+["SM161"]={
+ name="Jirachi",
+ GMN="00385000",
+ typ="88",
+ rar="P",
+ ID=9180
+},
+["SM162"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9181
+},
+["SM163"]={
+ name="Mimikyu",
+ GMN="00778000",
+ typ="99",
+ rar="P",
+ ID=9182
+},
+["SM164"]={
+ name="Deoxys",
+ GMN="00386000",
+ typ="55",
+ rar="P",
+ ID=9183
+},
+["SM165"]={
+ name="Ultra Necrozma",
+ GMN="00800000",
+ typ="110",
+ rar="P",
+ ID=9184
+},
+["SM166"]={
+ name="Magikarp & Wailord-GX",
+ GMN="00129006",
+ typ="33",
+ rar="P",
+ ID=9185
+},
+["SM167"]={
+ name="Celebi & Venusaur-GX",
+ GMN="00003006",
+ typ="11",
+ rar="P",
+ ID=9186
+},
+["SM168"]={
+ name="Pikachu & Zekrom-GX",
+ GMN="00025006",
+ typ="44",
+ rar="P",
+ ID=9187
+},
+["SM169"]={
+ name="Eevee & Snorlax-GX",
+ GMN="00133006",
+ typ="121",
+ rar="P",
+ ID=9188
+},
+["SM170"]={
+ name="Detective Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9189
+},
+["SM171"]={
+ name="Flareon-GX",
+ GMN="00136005",
+ typ="22",
+ rar="P",
+ ID=9190
+},
+["SM172"]={
+ name="Vaporeon-GX",
+ GMN="00134005",
+ typ="33",
+ rar="P",
+ ID=9191
+},
+["SM173"]={
+ name="Jolteon-GX",
+ GMN="00135005",
+ typ="44",
+ rar="P",
+ ID=9192
+},
+["SM174"]={
+ name="Eevee-GX",
+ GMN="00133005",
+ typ="121",
+ rar="P",
+ ID=9193
+},
+["SM175"]={
+ name="Eevee-GX",
+ GMN="00133005",
+ typ="121",
+ rar="P",
+ ID=9194
+},
+["SM176"]={
+ name="Eevee-GX",
+ GMN="00133005",
+ typ="121",
+ rar="P",
+ ID=9195
+},
+["SM177"]={
+ name="Meltan",
+ GMN="00808000",
+ typ="88",
+ rar="P",
+ ID=9196
+},
+["SM178"]={
+ name="Melmetal-GX",
+ GMN="00809005",
+ typ="88",
+ rar="P",
+ ID=9197
+},
+["SM179"]={
+ name="Volcanion",
+ GMN="00721000",
+ typ="22",
+ rar="P",
+ ID=9198
+},
+["SM180"]={
+ name="Stakataka",
+ GMN="00805000",
+ typ="66",
+ rar="P",
+ ID=9199
+},
+["SM181"]={
+ name="Melmetal",
+ GMN="00809000",
+ typ="88",
+ rar="P",
+ ID=9200
+},
+["SM182"]={
+ name="Persian",
+ GMN="00053000",
+ typ="121",
+ rar="P",
+ ID=9201
+},
+["SM183"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9202
+},
+["SM184"]={
+ name="Eevee",
+ GMN="00133000",
+ typ="121",
+ rar="P",
+ ID=9203
+},
+["SM185"]={
+ name="Typhlosion",
+ GMN="00157000",
+ typ="22",
+ rar="P",
+ ID=9204
+},
+["SM186"]={
+ name="Flareon",
+ GMN="00136000",
+ typ="22",
+ rar="P",
+ ID=9205
+},
+["SM187"]={
+ name="Alolan Marowak-GX",
+ GMN="00105005",
+ typ="22",
+ rar="P",
+ ID=9206
+},
+["SM188"]={
+ name="Kangaskhan-GX",
+ GMN="00115005",
+ typ="121",
+ rar="P",
+ ID=9207
+},
+["SM189"]={
+ name="Blastoise-GX",
+ GMN="00009005",
+ typ="33",
+ rar="P",
+ ID=9208
+},
+["SM190"]={
+ name="Detective Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9209
+},
+["SM191"]={
+ name="Mewtwo & Mew-GX",
+ GMN="00150006",
+ typ="55",
+ rar="P",
+ ID=9210
+},
+["SM192"]={
+ name="Lucario & Melmetal-GX",
+ GMN="00448006",
+ typ="88",
+ rar="P",
+ ID=9211
+},
+["SM193"]={
+ name="Garchomp & Giratina-GX",
+ GMN="00445006",
+ typ="110",
+ rar="P",
+ ID=9212
+},
+["SM194"]={
+ name="Detective Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9213
+},
+["SM195"]={
+ name="Charizard-GX",
+ GMN="00006005",
+ typ="22",
+ rar="P",
+ ID=9214
+},
+["SM196"]={
+ name="Mewtwo-GX",
+ GMN="00150005",
+ typ="55",
+ rar="P",
+ ID=9215
+},
+["SM197"]={
+ name="Greninja-GX",
+ GMN="00658005",
+ typ="33",
+ rar="P",
+ ID=9216
+},
+["SM198"]={
+ name="Bulbasaur",
+ GMN="00001000",
+ typ="11",
+ rar="P",
+ ID=9217
+},
+["SM199"]={
+ name="Psyduck",
+ GMN="00054000",
+ typ="33",
+ rar="P",
+ ID=9218
+},
+["SM200"]={
+ name="Snubbull",
+ GMN="00209000",
+ typ="99",
+ rar="P",
+ ID=9219
+},
+["SM201"]={
+ name="Reshiram & Charizard-GX",
+ GMN="00006006",
+ typ="22",
+ rar="P",
+ ID=9220
+},
+["SM202"]={
+ name="Amoonguss",
+ GMN="00591000",
+ typ="11",
+ rar="P",
+ ID=9221
+},
+["SM203"]={
+ name="Tapu Fini",
+ GMN="00788000",
+ typ="33",
+ rar="P",
+ ID=9222
+},
+["SM204"]={
+ name="Necrozma",
+ GMN="00800000",
+ typ="55",
+ rar="P",
+ ID=9223
+},
+["SM205"]={
+ name="Terrakion",
+ GMN="00639000",
+ typ="66",
+ rar="P",
+ ID=9224
+},
+["SM206"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9225
+},
+["SM207"]={
+ name="Sudowoodo",
+ GMN="00185000",
+ typ="66",
+ rar="P",
+ ID=9226
+},
+["SM208"]={
+ name="Vikavolt",
+ GMN="00738000",
+ typ="44",
+ rar="P",
+ ID=9227
+},
+["SM209"]={
+ name="Stakataka",
+ GMN="00805000",
+ typ="66",
+ rar="P",
+ ID=9228
+},
+["SM210"]={
+ name="Moltres & Zapdos & Articuno-GX",
+ GMN="00144006",
+ typ="121",
+ rar="P",
+ ID=9229
+},
+["SM211"]={
+ name="Charizard-GX",
+ GMN="00006005",
+ typ="22",
+ rar="P",
+ ID=9230
+},
+["SM212"]={
+ name="Gyarados-GX",
+ GMN="00130005",
+ typ="33",
+ rar="P",
+ ID=9231
+},
+["SM213"]={
+ name="Raichu-GX",
+ GMN="00026005",
+ typ="44",
+ rar="P",
+ ID=9232
+},
+["SM214"]={
+ name="Mewtwo",
+ GMN="00150000",
+ typ="55",
+ rar="P",
+ ID=9233
+},
+["SM215"]={
+ name="Mew",
+ GMN="00151000",
+ typ="55",
+ rar="P",
+ ID=9234
+},
+["SM216"]={
+ name="Porygon-Z-GX",
+ GMN="00137705",
+ typ="121",
+ rar="P",
+ ID=9235
+},
+["SM217"]={
+ name="Trevenant & Dusknoir-GX",
+ GMN="00356506",
+ typ="55",
+ rar="P",
+ ID=9236
+},
+["SM218"]={
+ name="Buzzwole",
+ GMN="00794000",
+ typ="11",
+ rar="P",
+ ID=9237
+},
+["SM219"]={
+ name="Entei",
+ GMN="00244000",
+ typ="22",
+ rar="P",
+ ID=9238
+},
+["SM220"]={
+ name="Phione",
+ GMN="00489000",
+ typ="33",
+ rar="P",
+ ID=9239
+},
+["SM221"]={
+ name="Blacephalon",
+ GMN="00806000",
+ typ="55",
+ rar="P",
+ ID=9240
+},
+["SM222"]={
+ name="Mismagius",
+ GMN="00200500",
+ typ="55",
+ rar="P",
+ ID=9241
+},
+["SM223"]={
+ name="Terrakion",
+ GMN="00639000",
+ typ="66",
+ rar="P",
+ ID=9242
+},
+["SM224"]={
+ name="Celebi",
+ GMN="00251000",
+ typ="55",
+ rar="P",
+ ID=9243
+},
+["SM225"]={
+ name="Victini",
+ GMN="00494000",
+ typ="22",
+ rar="P",
+ ID=9244
+},
+["SM226"]={
+ name="Charizard",
+ GMN="00006000",
+ typ="22",
+ rar="P",
+ ID=9245
+},
+["SM227"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9246
+},
+["SM228"]={
+ name="Armored Mewtwo",
+ GMN="00150000",
+ typ="55",
+ rar="P",
+ ID=9247
+},
+["SM229"]={
+ name="Venusaur & Snivy-GX",
+ GMN="00003006",
+ typ="11",
+ rar="P",
+ ID=9248
+},
+["SM230"]={
+ name="Charizard & Braixen-GX",
+ GMN="00006006",
+ typ="22",
+ rar="P",
+ ID=9249
+},
+["SM231"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=9250
+},
+["SM232"]={
+ name="Pikachu-GX",
+ GMN="00025005",
+ typ="44",
+ rar="P",
+ ID=9251
+},
+["SM233"]={
+ name="Eevee-GX",
+ GMN="00133005",
+ typ="121",
+ rar="P",
+ ID=9252
+},
+["SM234"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=9253
+},
+["SM235"]={
+ name="Eevee",
+ GMN="00133000",
+ typ="121",
+ rar="P",
+ ID=9254
+},
+["SM236"]={
+ name="Alolan Sandslash-GX",
+ GMN="00028005",
+ typ="33",
+ rar="P",
+ ID=9255
+},
+["SM237"]={
+ name="Leafeon",
+ GMN="00136300",
+ typ="11",
+ rar="P",
+ ID=9256
+},
+["SM238"]={
+ name="Glaceon",
+ GMN="00136400",
+ typ="33",
+ rar="P",
+ ID=9257
+},
+["SM239"]={
+ name="Carracosta-GX",
+ GMN="00565005",
+ typ="66",
+ rar="P",
+ ID=9258
+},
+["SM240"]={
+ name="Espeon & Deoxys-GX",
+ GMN="00136106",
+ typ="55",
+ rar="P",
+ ID=9259
+},
+["SM241"]={
+ name="Umbreon & Darkrai-GX",
+ GMN="00136206",
+ typ="77",
+ rar="P",
+ ID=9260
+},
+["SM242"]={
+ name="Eevee-GX",
+ GMN="00133005",
+ typ="121",
+ rar="P",
+ ID=9261
+},
+["SM243"]={
+ name="Regigigas",
+ GMN="00486000",
+ typ="121",
+ rar="P",
+ ID=9262
+},
+["SM244"]={
+ name="Aipom",
+ GMN="00190000",
+ typ="121",
+ rar="P",
+ ID=9263
+},
+["SM245"]={
+ name="Mismagius",
+ GMN="00200500",
+ typ="55",
+ rar="P",
+ ID=9264
+},
+["SM246"]={
+ name="Sabrina & Brycen",
+ GMN="40000000",
+ typ="500",
+ rar="P",
+ ID=9265
+},
+["SM247"]={
+ name="Reshiram & Charizard-GX",
+ GMN="00006006",
+ typ="22",
+ rar="P",
+ ID=9266
+},
+["SM248"]={
+ name="Pikachu & Zekrom-GX",
+ GMN="00025006",
+ typ="44",
+ rar="P",
+ ID=9267
+}}
+]]
+
+function onObjectLeaveContainer(cont,leaving)
+ if cont~=self then return end
+end
+
+function onLoad()
+ setUpButtons()
+ if not cardData then
+  self.setLuaScript(self.getLuaScript()..cardString)
+  self.Reload()
+ end
+end
+
+function setUpButtons()
+ local params={
+ function_owner=self,
+ width=3500,
+ height=500,
+ font_size=450,
+ }
+ butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
+end
+
+function butWrapper(params,pos,label,tool,func)
+ params.position=pos
+ params.label=label
+ params.tooltip=tool
+ params.click_function=func
+ self.createButton(params)
+end
+
+function getSet(obj,color,alt)
+ local spawnPos=self.positionToWorld({0,1,7})
+ packData=getDeckData(spawnPos,self.getRotation(),false)
+ for num,card in pairs(cardData) do
+  addCard(num,card)
+ end
+ local deck=spawnObjectData({data=packData})
+end
+
+function getTrueNumber(num,card)
+ if card.num then return card.num end
+ if startsWith(num,"E")then return num:sub(2)else return num end
+end
+
+function removeLeadingZeros(num)
+ if tonumber(num)then return string.format("%u", num)else return num end
+end
+
+function getDeckID(num,card)
+ return card.ID or DeckID+tonumber(getTrueNumber(num,card))
+end
+
+function addCard(num,card)
+ packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
+ packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+end
+
+function getCardTable(trans,num,card)
+ local des=card.setName
+ if not des then
+  if subSetID and startsWith(num,subSetPre)then
+   des=subSetName
+  else
+   des=setName
+  end
+ end
+ if card.num!=""then
+  des=des.." #"..getTrueNumber(num,card)
+ end
+ if card.rar then
+  des=des.." "..card.rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=card.name,
+ Description=des,
+ GMNotes=card.GMN,
+ Memo=(card.date or date)..buildCardNumber(num,3),
+ CardID=getDeckID(num,card)*100,
+ CustomDeck={[getDeckID(num,card)]=getCustomData(num,card)},
+ LuaScriptState=card.typ
+}
+end
+
+function getCustomData(num,card)
+ local image=card.image
+ if not image then
+  if card.steamUrl then
+   image=getSteamUrl(card.steamUrl)
+  else
+   local ID=setID
+   if subSetID and startsWith(num,subSetPre) then
+    ID=subSetID
+   end
+   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+  end
+ end
+ return{FaceURL=image,
+  BackURL=card.back or"https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
+ }
+end
+
+function getDeckData(spawnPos,cardRot,hands)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
+end
+
+function startsWith(input,prefix)
+ if not prefix then return false end
+ return string.sub(input,1,#prefix)==prefix
+end
+
+function buildCardNumber(cardNum,minDigit)
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
+  end
+ else
+  cardNum="0"
+ end
+ while #cardNum<minDigit do cardNum="0"..cardNum end
+ return cardNum
+end

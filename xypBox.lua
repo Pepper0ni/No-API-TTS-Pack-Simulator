@@ -1,0 +1,1661 @@
+setName="XY Black Star Promos"
+DeckID=7078
+date="20131012"
+setID="xyp"
+cardString=[[
+cardData={["XY01"]={
+ name="Chespin",
+ GMN="00650000",
+ typ="11",
+ rar="P",
+ ID=7079
+},
+["XY02"]={
+ name="Fennekin",
+ GMN="00653000",
+ typ="22",
+ rar="P",
+ ID=7080
+},
+["XY03"]={
+ name="Froakie",
+ GMN="00656000",
+ typ="33",
+ rar="P",
+ ID=7081
+},
+["XY04"]={
+ name="Sylveon",
+ GMN="00136500",
+ typ="99",
+ rar="P",
+ ID=7082
+},
+["XY05"]={
+ name="Xerneas",
+ GMN="00716000",
+ typ="99",
+ rar="P",
+ ID=7083
+},
+["XY06"]={
+ name="Yveltal",
+ GMN="00717000",
+ typ="77",
+ rar="P",
+ ID=7084
+},
+["XY07"]={
+ name="Xerneas-EX",
+ GMN="00716003",
+ typ="99",
+ rar="P",
+ ID=7085
+},
+["XY08"]={
+ name="Yveltal-EX",
+ GMN="00717003",
+ typ="77",
+ rar="P",
+ ID=7086
+},
+["XY09"]={
+ name="Garchomp-EX",
+ GMN="00445003",
+ typ="110",
+ rar="P",
+ ID=7087
+},
+["XY10"]={
+ name="Dragalge",
+ GMN="00691000",
+ typ="110",
+ rar="P",
+ ID=7088
+},
+["XY11"]={
+ name="Skiddo",
+ GMN="00672000",
+ typ="11",
+ rar="P",
+ ID=7089
+},
+["XY12"]={
+ name="Honedge",
+ GMN="00679000",
+ typ="88",
+ rar="P",
+ ID=7090
+},
+["XY13"]={
+ name="Machamp",
+ GMN="00068000",
+ typ="66",
+ rar="P",
+ ID=7091
+},
+["XY14"]={
+ name="Trevenant",
+ GMN="00709000",
+ typ="55",
+ rar="P",
+ ID=7092
+},
+["XY15"]={
+ name="Slurpuff",
+ GMN="00685000",
+ typ="99",
+ rar="P",
+ ID=7093
+},
+["XY16"]={
+ name="Gogoat",
+ GMN="00673000",
+ typ="11",
+ rar="P",
+ ID=7094
+},
+["XY17"]={
+ name="Charizard-EX",
+ GMN="00006003",
+ typ="22",
+ rar="P",
+ ID=7095
+},
+["XY18"]={
+ name="Chesnaught-EX",
+ GMN="00652003",
+ typ="11",
+ rar="P",
+ ID=7096
+},
+["XY19"]={
+ name="Delphox-EX",
+ GMN="00655003",
+ typ="22",
+ rar="P",
+ ID=7097
+},
+["XY20"]={
+ name="Greninja-EX",
+ GMN="00658003",
+ typ="33",
+ rar="P",
+ ID=7098
+},
+["XY21"]={
+ name="Bronzong",
+ GMN="00437000",
+ typ="88",
+ rar="P",
+ ID=7099
+},
+["XY22"]={
+ name="Darkrai",
+ GMN="00491000",
+ typ="77",
+ rar="P",
+ ID=7100
+},
+["XY23"]={
+ name="Shiftry",
+ GMN="00275000",
+ typ="11",
+ rar="P",
+ ID=7101
+},
+["XY24"]={
+ name="Greninja",
+ GMN="00658000",
+ typ="77",
+ rar="P",
+ ID=7102
+},
+["XY25"]={
+ name="Krookodile-EX",
+ GMN="00553003",
+ typ="77",
+ rar="P",
+ ID=7103
+},
+["XY26"]={
+ name="Pyroar",
+ GMN="00668000",
+ typ="22",
+ rar="P",
+ ID=7104
+},
+["XY27"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=7105
+},
+["XY28"]={
+ name="Venusaur-EX",
+ GMN="00003003",
+ typ="11",
+ rar="P",
+ ID=7106
+},
+["XY29"]={
+ name="Charizard-EX",
+ GMN="00006003",
+ typ="22",
+ rar="P",
+ ID=7107
+},
+["XY30"]={
+ name="Blastoise-EX",
+ GMN="00009003",
+ typ="33",
+ rar="P",
+ ID=7108
+},
+["XY31"]={
+ name="Xerneas",
+ GMN="00716000",
+ typ="99",
+ rar="P",
+ ID=7109
+},
+["XY32"]={
+ name="Yveltal",
+ GMN="00717000",
+ typ="77",
+ rar="P",
+ ID=7110
+},
+["XY33"]={
+ name="Trevor",
+ GMN="40000000",
+ typ="500",
+ rar="P",
+ ID=7111
+},
+["XY34"]={
+ name="Metagross-EX",
+ GMN="00376003",
+ typ="88",
+ rar="P",
+ ID=7112
+},
+["XY35"]={
+ name="M Metagross-EX",
+ GMN="00376004",
+ typ="88",
+ rar="P",
+ ID=7113
+},
+["XY36"]={
+ name="Treecko",
+ GMN="00252000",
+ typ="11",
+ rar="P",
+ ID=7114
+},
+["XY37"]={
+ name="Torchic",
+ GMN="00255000",
+ typ="22",
+ rar="P",
+ ID=7115
+},
+["XY38"]={
+ name="Mudkip",
+ GMN="00258000",
+ typ="33",
+ rar="P",
+ ID=7116
+},
+["XY39"]={
+ name="Kingdra",
+ GMN="00117500",
+ typ="110",
+ rar="P",
+ ID=7117
+},
+["XY40"]={
+ name="Ditto",
+ GMN="00132000",
+ typ="121",
+ rar="P",
+ ID=7118
+},
+["XY41"]={
+ name="Kyogre-EX",
+ GMN="00382003",
+ typ="33",
+ rar="P",
+ ID=7119
+},
+["XY42"]={
+ name="Groudon-EX",
+ GMN="00383003",
+ typ="66",
+ rar="P",
+ ID=7120
+},
+["XY43"]={
+ name="Diancie-EX",
+ GMN="00719003",
+ typ="99",
+ rar="P",
+ ID=7121
+},
+["XY44"]={
+ name="M Diancie-EX",
+ GMN="00719004",
+ typ="99",
+ rar="P",
+ ID=7122
+},
+["XY45"]={
+ name="Gallade-EX",
+ GMN="00282503",
+ typ="55",
+ rar="P",
+ ID=7123
+},
+["XY46"]={
+ name="Altaria",
+ GMN="00334000",
+ typ="121",
+ rar="P",
+ ID=7124
+},
+["XY47"]={
+ name="Heliolisk",
+ GMN="00695000",
+ typ="44",
+ rar="P",
+ ID=7125
+},
+["XY48"]={
+ name="Meowstic",
+ GMN="00678000",
+ typ="55",
+ rar="P",
+ ID=7126
+},
+["XY49"]={
+ name="Regirock",
+ GMN="00377000",
+ typ="66",
+ rar="P",
+ ID=7127
+},
+["XY50"]={
+ name="Pangoro",
+ GMN="00675000",
+ typ="66",
+ rar="P",
+ ID=7128
+},
+["XY51"]={
+ name="Kyogre",
+ GMN="00382000",
+ typ="33",
+ rar="P",
+ ID=7129
+},
+["XY52"]={
+ name="Groudon",
+ GMN="00383000",
+ typ="66",
+ rar="P",
+ ID=7130
+},
+["XY53"]={
+ name="Sceptile-EX",
+ GMN="00254003",
+ typ="11",
+ rar="P",
+ ID=7131
+},
+["XY54"]={
+ name="Blaziken-EX",
+ GMN="00257003",
+ typ="22",
+ rar="P",
+ ID=7132
+},
+["XY55"]={
+ name="Swampert-EX",
+ GMN="00260003",
+ typ="33",
+ rar="P",
+ ID=7133
+},
+["XY56"]={
+ name="Blissey",
+ GMN="00113500",
+ typ="121",
+ rar="P",
+ ID=7134
+},
+["XY57"]={
+ name="Fearow",
+ GMN="00022000",
+ typ="121",
+ rar="P",
+ ID=7135
+},
+["XY58"]={
+ name="Malamar",
+ GMN="00687000",
+ typ="77",
+ rar="P",
+ ID=7136
+},
+["XY59"]={
+ name="Salamence",
+ GMN="00373000",
+ typ="110",
+ rar="P",
+ ID=7137
+},
+["XY60"]={
+ name="Gyarados",
+ GMN="00130000",
+ typ="33",
+ rar="P",
+ ID=7138
+},
+["XY61"]={
+ name="Flygon-EX",
+ GMN="00330003",
+ typ="110",
+ rar="P",
+ ID=7139
+},
+["XY62"]={
+ name="Absol-EX",
+ GMN="00359003",
+ typ="77",
+ rar="P",
+ ID=7140
+},
+["XY63"]={
+ name="M Absol-EX",
+ GMN="00359004",
+ typ="77",
+ rar="P",
+ ID=7141
+},
+["XY64"]={
+ name="Rayquaza",
+ GMN="00384000",
+ typ="110",
+ rar="P",
+ ID=7142
+},
+["XY65"]={
+ name="Latios",
+ GMN="00381000",
+ typ="55",
+ rar="P",
+ ID=7143
+},
+["XY66"]={
+ name="Rayquaza-EX",
+ GMN="00384003",
+ typ="121",
+ rar="P",
+ ID=7144
+},
+["XY67"]={
+ name="Jirachi",
+ GMN="00385000",
+ typ="88",
+ rar="P",
+ ID=7145
+},
+["XY67a"]={
+ name="Jirachi",
+ GMN="00385000",
+ typ="88",
+ rar="P",
+ ID=7146
+},
+["XY68"]={
+ name="Chesnaught",
+ GMN="00652000",
+ typ="11",
+ rar="P",
+ ID=7147
+},
+["XY69"]={
+ name="Rayquaza-EX",
+ GMN="00384003",
+ typ="121",
+ rar="P",
+ ID=7148
+},
+["XY70"]={
+ name="Tyrantrum-EX",
+ GMN="00697003",
+ typ="110",
+ rar="P",
+ ID=7149
+},
+["XY71"]={
+ name="Hoopa-EX",
+ GMN="00720003",
+ typ="55",
+ rar="P",
+ ID=7150
+},
+["XY72"]={
+ name="Latios-EX",
+ GMN="00381003",
+ typ="110",
+ rar="P",
+ ID=7151
+},
+["XY73"]={
+ name="Rayquaza-EX",
+ GMN="00384003",
+ typ="110",
+ rar="P",
+ ID=7152
+},
+["XY74"]={
+ name="Reshiram",
+ GMN="00643000",
+ typ="22",
+ rar="P",
+ ID=7153
+},
+["XY75"]={
+ name="Palkia",
+ GMN="00484000",
+ typ="33",
+ rar="P",
+ ID=7154
+},
+["XY76"]={
+ name="Zekrom",
+ GMN="00644000",
+ typ="44",
+ rar="P",
+ ID=7155
+},
+["XY77"]={
+ name="Dialga",
+ GMN="00483000",
+ typ="88",
+ rar="P",
+ ID=7156
+},
+["XY78"]={
+ name="Latias",
+ GMN="00380000",
+ typ="110",
+ rar="P",
+ ID=7157
+},
+["XY79"]={
+ name="Latios",
+ GMN="00381000",
+ typ="110",
+ rar="P",
+ ID=7158
+},
+["XY80"]={
+ name="Black Kyurem",
+ GMN="00646000",
+ typ="110",
+ rar="P",
+ ID=7159
+},
+["XY81"]={
+ name="White Kyurem",
+ GMN="00646000",
+ typ="110",
+ rar="P",
+ ID=7160
+},
+["XY82"]={
+ name="Regigigas",
+ GMN="00486000",
+ typ="121",
+ rar="P",
+ ID=7161
+},
+["XY83"]={
+ name="Arceus",
+ GMN="00493000",
+ typ="121",
+ rar="P",
+ ID=7162
+},
+["XY84"]={
+ name="Pikachu-EX",
+ GMN="00025003",
+ typ="44",
+ rar="P",
+ ID=7163
+},
+["XY85"]={
+ name="Hoopa-EX",
+ GMN="00720003",
+ typ="55",
+ rar="P",
+ ID=7164
+},
+["XY86"]={
+ name="M Blaziken-EX",
+ GMN="00257004",
+ typ="22",
+ rar="P",
+ ID=7165
+},
+["XY87"]={
+ name="M Swampert-EX",
+ GMN="00260004",
+ typ="33",
+ rar="P",
+ ID=7166
+},
+["XY88"]={
+ name="Chespin",
+ GMN="00650000",
+ typ="11",
+ rar="P",
+ ID=7167
+},
+["XY89"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=7168
+},
+["XY90"]={
+ name="Hoopa",
+ GMN="00720000",
+ typ="55",
+ rar="P",
+ ID=7169
+},
+["XY91"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=7170
+},
+["XY92"]={
+ name="Sableye",
+ GMN="00302000",
+ typ="55",
+ rar="P",
+ ID=7171
+},
+["XY93"]={
+ name="Celebi",
+ GMN="00251000",
+ typ="11",
+ rar="P",
+ ID=7172
+},
+["XY94"]={
+ name="Trevenant",
+ GMN="00709000",
+ typ="55",
+ rar="P",
+ ID=7173
+},
+["XY95"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=7174
+},
+["XY96"]={
+ name="Umbreon",
+ GMN="00136200",
+ typ="77",
+ rar="P",
+ ID=7175
+},
+["XY97"]={
+ name="Aerodactyl-EX",
+ GMN="00142003",
+ typ="66",
+ rar="P",
+ ID=7176
+},
+["XY98"]={
+ name="M Aerodactyl-EX",
+ GMN="00142004",
+ typ="66",
+ rar="P",
+ ID=7177
+},
+["XY99"]={
+ name="Aerodactyl Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7178
+},
+["XY100"]={
+ name="Mewtwo",
+ GMN="00150000",
+ typ="55",
+ rar="P",
+ ID=7179
+},
+["XY101"]={
+ name="Mewtwo",
+ GMN="00150000",
+ typ="55",
+ rar="P",
+ ID=7180
+},
+["XY102"]={
+ name="Aurorus-EX",
+ GMN="00699003",
+ typ="33",
+ rar="P",
+ ID=7181
+},
+["XY103"]={
+ name="Mawile-EX",
+ GMN="00303003",
+ typ="99",
+ rar="P",
+ ID=7182
+},
+["XY104"]={
+ name="M Mawile-EX",
+ GMN="00303004",
+ typ="99",
+ rar="P",
+ ID=7183
+},
+["XY105"]={
+ name="Mawile Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7184
+},
+["XY106"]={
+ name="Gyarados-EX",
+ GMN="00130003",
+ typ="33",
+ rar="P",
+ ID=7185
+},
+["XY107"]={
+ name="Mewtwo-EX",
+ GMN="00150003",
+ typ="55",
+ rar="P",
+ ID=7186
+},
+["XY108"]={
+ name="Machamp-EX",
+ GMN="00068003",
+ typ="66",
+ rar="P",
+ ID=7187
+},
+["XY109"]={
+ name="Gyarados",
+ GMN="00130000",
+ typ="33",
+ rar="P",
+ ID=7188
+},
+["XY110"]={
+ name="Mew",
+ GMN="00151000",
+ typ="55",
+ rar="P",
+ ID=7189
+},
+["XY111"]={
+ name="Celebi",
+ GMN="00251000",
+ typ="11",
+ rar="P",
+ ID=7190
+},
+["XY112"]={
+ name="Jirachi",
+ GMN="00385000",
+ typ="88",
+ rar="P",
+ ID=7191
+},
+["XY113"]={
+ name="Manaphy",
+ GMN="00490000",
+ typ="33",
+ rar="P",
+ ID=7192
+},
+["XY114"]={
+ name="Darkrai",
+ GMN="00491000",
+ typ="77",
+ rar="P",
+ ID=7193
+},
+["XY115"]={
+ name="Shaymin",
+ GMN="00492000",
+ typ="11",
+ rar="P",
+ ID=7194
+},
+["XY116"]={
+ name="Arceus",
+ GMN="00493000",
+ typ="121",
+ rar="P",
+ ID=7195
+},
+["XY117"]={
+ name="Victini",
+ GMN="00494000",
+ typ="22",
+ rar="P",
+ ID=7196
+},
+["XY118"]={
+ name="Keldeo",
+ GMN="00647000",
+ typ="33",
+ rar="P",
+ ID=7197
+},
+["XY119"]={
+ name="Genesect",
+ GMN="00649000",
+ typ="88",
+ rar="P",
+ ID=7198
+},
+["XY120"]={
+ name="Meloetta",
+ GMN="00648000",
+ typ="55",
+ rar="P",
+ ID=7199
+},
+["XY121"]={
+ name="Charizard-EX",
+ GMN="00006003",
+ typ="22",
+ rar="P",
+ ID=7200
+},
+["XY122"]={
+ name="Blastoise-EX",
+ GMN="00009003",
+ typ="33",
+ rar="P",
+ ID=7201
+},
+["XY123"]={
+ name="Venusaur-EX",
+ GMN="00003003",
+ typ="11",
+ rar="P",
+ ID=7202
+},
+["XY124"]={
+ name="Pikachu-EX",
+ GMN="00025003",
+ typ="44",
+ rar="P",
+ ID=7203
+},
+["XY125"]={
+ name="Mewtwo-EX",
+ GMN="00150003",
+ typ="55",
+ rar="P",
+ ID=7204
+},
+["XY126"]={
+ name="Mew-EX",
+ GMN="00151003",
+ typ="55",
+ rar="P",
+ ID=7205
+},
+["XY127"]={
+ name="Moltres",
+ GMN="00146000",
+ typ="22",
+ rar="P",
+ ID=7206
+},
+["XY128"]={
+ name="White Kyurem",
+ GMN="00646000",
+ typ="33",
+ rar="P",
+ ID=7207
+},
+["XY129"]={
+ name="Zygarde",
+ GMN="00718000",
+ typ="66",
+ rar="P",
+ ID=7208
+},
+["XY130"]={
+ name="Tyranitar",
+ GMN="00248000",
+ typ="77",
+ rar="P",
+ ID=7209
+},
+["XY131"]={
+ name="Pansear",
+ GMN="00513000",
+ typ="22",
+ rar="P",
+ ID=7210
+},
+["XY132"]={
+ name="Gastly",
+ GMN="00092000",
+ typ="55",
+ rar="P",
+ ID=7211
+},
+["XY133"]={
+ name="Ash-Greninja-EX",
+ GMN="00658003",
+ typ="33",
+ rar="P",
+ ID=7212
+},
+["XY134"]={
+ name="Empoleon BREAK",
+ GMN="00395002",
+ typ="33",
+ rar="P",
+ ID=7213
+},
+["XY135"]={
+ name="Beheeyem BREAK",
+ GMN="00606002",
+ typ="55",
+ rar="P",
+ ID=7214
+},
+["XY136"]={
+ name="Noctowl BREAK",
+ GMN="00164002",
+ typ="121",
+ rar="P",
+ ID=7215
+},
+["XY137"]={
+ name="Vivillon",
+ GMN="00666000",
+ typ="11",
+ rar="P",
+ ID=7216
+},
+["XY138"]={
+ name="Froakie",
+ GMN="00656000",
+ typ="33",
+ rar="P",
+ ID=7217
+},
+["XY139"]={
+ name="Floette",
+ GMN="00670000",
+ typ="99",
+ rar="P",
+ ID=7218
+},
+["XY140"]={
+ name="Lucario",
+ GMN="00448000",
+ typ="66",
+ rar="P",
+ ID=7219
+},
+["XY141"]={
+ name="Rayquaza",
+ GMN="00384000",
+ typ="110",
+ rar="P",
+ ID=7220
+},
+["XY142"]={
+ name="Azelf",
+ GMN="00482000",
+ typ="55",
+ rar="P",
+ ID=7221
+},
+["XY143"]={
+ name="Magikarp",
+ GMN="00129000",
+ typ="33",
+ rar="P",
+ ID=7222
+},
+["XY144"]={
+ name="Yanmega",
+ GMN="00193500",
+ typ="11",
+ rar="P",
+ ID=7223
+},
+["XY145"]={
+ name="Volcanion",
+ GMN="00721000",
+ typ="22",
+ rar="P",
+ ID=7224
+},
+["XY146"]={
+ name="Clawitzer",
+ GMN="00693000",
+ typ="33",
+ rar="P",
+ ID=7225
+},
+["XY147"]={
+ name="Hoopa",
+ GMN="00720000",
+ typ="55",
+ rar="P",
+ ID=7226
+},
+["XY148"]={
+ name="Shaymin-EX",
+ GMN="00492003",
+ typ="11",
+ rar="P",
+ ID=7227
+},
+["XY149"]={
+ name="Xerneas-EX",
+ GMN="00716003",
+ typ="99",
+ rar="P",
+ ID=7228
+},
+["XY150"]={
+ name="Yveltal-EX",
+ GMN="00717003",
+ typ="77",
+ rar="P",
+ ID=7229
+},
+["XY150a"]={
+ name="Yveltal-EX",
+ GMN="00717003",
+ typ="77",
+ rar="P",
+ ID=7230
+},
+["XY151"]={
+ name="Zygarde-EX",
+ GMN="00718003",
+ typ="66",
+ rar="P",
+ ID=7231
+},
+["XY152"]={
+ name="Zygarde",
+ GMN="00718000",
+ typ="66",
+ rar="P",
+ ID=7232
+},
+["XY153"]={
+ name="Ho-Oh",
+ GMN="00250000",
+ typ="22",
+ rar="P",
+ ID=7233
+},
+["XY154"]={
+ name="Ho-Oh BREAK",
+ GMN="00250002",
+ typ="22",
+ rar="P",
+ ID=7234
+},
+["XY155"]={
+ name="Wobbuffet BREAK",
+ GMN="00202002",
+ typ="55",
+ rar="P",
+ ID=7235
+},
+["XY156"]={
+ name="Lugia",
+ GMN="00249000",
+ typ="121",
+ rar="P",
+ ID=7236
+},
+["XY157"]={
+ name="Beedrill-EX",
+ GMN="00015003",
+ typ="11",
+ rar="P",
+ ID=7237
+},
+["XY158"]={
+ name="M Beedrill-EX",
+ GMN="00015004",
+ typ="11",
+ rar="P",
+ ID=7238
+},
+["XY159"]={
+ name="Beedrill Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7239
+},
+["XY160"]={
+ name="Black Kyurem",
+ GMN="00646000",
+ typ="33",
+ rar="P",
+ ID=7240
+},
+["XY161"]={
+ name="Braixen",
+ GMN="00654000",
+ typ="22",
+ rar="P",
+ ID=7241
+},
+["XY162"]={
+ name="Greninja",
+ GMN="00658000",
+ typ="33",
+ rar="P",
+ ID=7242
+},
+["XY163"]={
+ name="Weezing",
+ GMN="00110000",
+ typ="55",
+ rar="P",
+ ID=7243
+},
+["XY164"]={
+ name="Volcanion",
+ GMN="00721000",
+ typ="22",
+ rar="P",
+ ID=7244
+},
+["XY165"]={
+ name="Magearna",
+ GMN="00801000",
+ typ="88",
+ rar="P",
+ ID=7245
+},
+["XY166"]={
+ name="M Gengar-EX",
+ GMN="00094004",
+ typ="55",
+ rar="P",
+ ID=7246
+},
+["XY167"]={
+ name="Garchomp-EX",
+ GMN="00445003",
+ typ="110",
+ rar="P",
+ ID=7247
+},
+["XY168"]={
+ name="M Garchomp-EX",
+ GMN="00445004",
+ typ="110",
+ rar="P",
+ ID=7248
+},
+["XY169"]={
+ name="Garchomp Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7249
+},
+["XY170"]={
+ name="Salamence-EX",
+ GMN="00373003",
+ typ="110",
+ rar="P",
+ ID=7250
+},
+["XY171"]={
+ name="M Salamence-EX",
+ GMN="00373004",
+ typ="110",
+ rar="P",
+ ID=7251
+},
+["XY172"]={
+ name="Salamence Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7252
+},
+["XY173"]={
+ name="Volcanion-EX",
+ GMN="00721003",
+ typ="225",
+ rar="P",
+ ID=7253
+},
+["XY174"]={
+ name="Pikachu-EX",
+ GMN="00025003",
+ typ="44",
+ rar="P",
+ ID=7254
+},
+["XY175"]={
+ name="Magearna-EX",
+ GMN="00801003",
+ typ="88",
+ rar="P",
+ ID=7255
+},
+["XY176"]={
+ name="Champions Festival",
+ GMN="50000000",
+ typ="500",
+ rar="P",
+ ID=7256
+},
+["XY177"]={
+ name="Karen",
+ GMN="40000000",
+ typ="500",
+ rar="P",
+ ID=7257
+},
+["XY177a"]={
+ name="Karen",
+ GMN="40000000",
+ typ="500",
+ rar="P",
+ ID=7258
+},
+["XY178"]={
+ name="Absol",
+ GMN="00359000",
+ typ="77",
+ rar="P",
+ ID=7259
+},
+["XY179"]={
+ name="Snorlax",
+ GMN="00143000",
+ typ="121",
+ rar="P",
+ ID=7260
+},
+["XY180"]={
+ name="Arcanine BREAK",
+ GMN="00059002",
+ typ="22",
+ rar="P",
+ ID=7261
+},
+["XY181"]={
+ name="Crobat BREAK",
+ GMN="00042502",
+ typ="55",
+ rar="P",
+ ID=7262
+},
+["XY182"]={
+ name="Mandibuzz BREAK",
+ GMN="00630002",
+ typ="77",
+ rar="P",
+ ID=7263
+},
+["XY183"]={
+ name="Mewtwo-EX",
+ GMN="00150003",
+ typ="55",
+ rar="P",
+ ID=7264
+},
+["XY184"]={
+ name="Giratina",
+ GMN="00487000",
+ typ="55",
+ rar="P",
+ ID=7265
+},
+["XY185"]={
+ name="Volcanion",
+ GMN="00721000",
+ typ="22",
+ rar="P",
+ ID=7266
+},
+["XY186"]={
+ name="Magearna",
+ GMN="00801000",
+ typ="88",
+ rar="P",
+ ID=7267
+},
+["XY187"]={
+ name="Celebi",
+ GMN="00251000",
+ typ="11",
+ rar="P",
+ ID=7268
+},
+["XY188"]={
+ name="Shaymin",
+ GMN="00492000",
+ typ="11",
+ rar="P",
+ ID=7269
+},
+["XY189"]={
+ name="Victini",
+ GMN="00494000",
+ typ="22",
+ rar="P",
+ ID=7270
+},
+["XY190"]={
+ name="Manaphy",
+ GMN="00490000",
+ typ="33",
+ rar="P",
+ ID=7271
+},
+["XY191"]={
+ name="Keldeo",
+ GMN="00647000",
+ typ="33",
+ rar="P",
+ ID=7272
+},
+["XY192"]={
+ name="Mew",
+ GMN="00151000",
+ typ="55",
+ rar="P",
+ ID=7273
+},
+["XY193"]={
+ name="Meloetta",
+ GMN="00648000",
+ typ="55",
+ rar="P",
+ ID=7274
+},
+["XY194"]={
+ name="Darkrai",
+ GMN="00491000",
+ typ="77",
+ rar="P",
+ ID=7275
+},
+["XY195"]={
+ name="Jirachi",
+ GMN="00385000",
+ typ="88",
+ rar="P",
+ ID=7276
+},
+["XY196"]={
+ name="Genesect",
+ GMN="00649000",
+ typ="88",
+ rar="P",
+ ID=7277
+},
+["XY197"]={
+ name="Arceus",
+ GMN="00493000",
+ typ="121",
+ rar="P",
+ ID=7278
+},
+["XY198"]={
+ name="M Camerupt-EX",
+ GMN="00323004",
+ typ="22",
+ rar="P",
+ ID=7279
+},
+["XY198a"]={
+ name="M Camerupt-EX",
+ GMN="00323004",
+ typ="22",
+ rar="P",
+ ID=7280
+},
+["XY199"]={
+ name="Camerupt Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7281
+},
+["XY200"]={
+ name="M Sharpedo-EX",
+ GMN="00319004",
+ typ="77",
+ rar="P",
+ ID=7282
+},
+["XY200a"]={
+ name="M Sharpedo-EX",
+ GMN="00319004",
+ typ="77",
+ rar="P",
+ ID=7283
+},
+["XY201"]={
+ name="Sharpedo Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7284
+},
+["XY202"]={
+ name="Pikachu",
+ GMN="00025000",
+ typ="44",
+ rar="P",
+ ID=7285
+},
+["XY203"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7286
+},
+["XY204"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7287
+},
+["XY205"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7288
+},
+["XY206"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7289
+},
+["XY207"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7290
+},
+["XY208"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7291
+},
+["XY209"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7292
+},
+["XY210"]={
+ name="Gym Badge",
+ GMN="30000000",
+ typ="500",
+ rar="P",
+ ID=7293
+},
+["XY211"]={
+ name="Lucario Spirit Link",
+ GMN="60000000",
+ typ="500",
+ rar="P",
+ ID=7294
+}}
+]]
+
+packData={}
+
+function onObjectLeaveContainer(cont,leaving)
+ if cont~=self then return end
+end
+
+function onLoad()
+ setUpButtons()
+ if not cardData then
+  self.setLuaScript(self.getLuaScript()..cardString)
+  self.Reload()
+ end
+end
+
+function setUpButtons()
+ local params={
+ function_owner=self,
+ width=3500,
+ height=500,
+ font_size=450,
+ }
+ butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
+end
+
+function butWrapper(params,pos,label,tool,func)
+ params.position=pos
+ params.label=label
+ params.tooltip=tool
+ params.click_function=func
+ self.createButton(params)
+end
+
+function getSet(obj,color,alt)
+ local spawnPos=self.positionToWorld({0,1,7})
+ packData=getDeckData(spawnPos,self.getRotation(),false)
+ for num,card in pairs(cardData) do
+  addCard(num,card)
+ end
+ local deck=spawnObjectData({data=packData})
+end
+
+function getTrueNumber(num,card)
+ if card.num then return card.num end
+ if startsWith(num,"E")then return num:sub(2)else return num end
+end
+
+function removeLeadingZeros(num)
+ if tonumber(num)then return string.format("%u", num)else return num end
+end
+
+function getDeckID(num,card)
+ return card.ID or DeckID+tonumber(getTrueNumber(num,card))
+end
+
+function addCard(num,card)
+ packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
+ packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+end
+
+function getCardTable(trans,num,card)
+ local des=card.setName
+ if not des then
+  if subSetID and startsWith(num,subSetPre)then
+   des=subSetName
+  else
+   des=setName
+  end
+ end
+ if card.num!=""then
+  des=des.." #"..getTrueNumber(num,card)
+ end
+ if card.rar then
+  des=des.." "..card.rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=card.name,
+ Description=des,
+ GMNotes=card.GMN,
+ Memo=(card.date or date)..buildCardNumber(num,3),
+ CardID=getDeckID(num,card)*100,
+ CustomDeck={[getDeckID(num,card)]=getCustomData(num,card)},
+ LuaScriptState=card.typ
+}
+end
+
+function getCustomData(num,card)
+ local image=card.image
+ if not image then
+  if card.steamUrl then
+   image=getSteamUrl(card.steamUrl)
+  else
+   local ID=setID
+   if subSetID and startsWith(num,subSetPre) then
+    ID=subSetID
+   end
+   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+  end
+ end
+ return{FaceURL=image,
+  BackURL=card.back or"https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
+ }
+end
+
+function getDeckData(spawnPos,cardRot,hands)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
+end
+
+function startsWith(input,prefix)
+ if not prefix then return false end
+ return string.sub(input,1,#prefix)==prefix
+end
+
+function buildCardNumber(cardNum,minDigit)
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
+  end
+ else
+  cardNum="0"
+ end
+ while #cardNum<minDigit do cardNum="0"..cardNum end
+ return cardNum
+end
+

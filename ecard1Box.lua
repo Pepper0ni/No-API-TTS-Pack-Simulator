@@ -7,6 +7,7 @@ setName="Expedition Base Set"
 DeckID=1251
 date="20020915"
 setID="ecard1"
+energyString="energy={}"
 dropSlots=[[{
 --1 U
   {cards={{"71","92"},{"137","152"}},num=2,size=38},

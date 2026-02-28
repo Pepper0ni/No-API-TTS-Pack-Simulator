@@ -1,4 +1,6 @@
 CodeToSet={
+ ["ASC"]="Ascended Heroes",
+ ["ME2PT5"]="Ascended Heroes",
  ["PFL"]="Phantasmal Flames",
  ["ME2"]="Phantasmal Flames",
  ["ME1"]="Mega Evolution",
@@ -97,6 +99,7 @@ CodeToSet={
  ["STS"]="Steam Siege",
  ["FCO"]="Fates Collide",
  ["FAC"]="Fates Collide",
+ ["GEN-RC"]="Generations",
  ["GEN"]="Generations",
  ["BKP"]="BREAKpoint",
  ["MCD15"]="McDonald's Collection 2015",
@@ -112,6 +115,7 @@ CodeToSet={
  ["XY"]="XY",
  ["KSS"]="Kalos Starter Set",
  ["PR-XY"]="XY Black Star Promos",
+ ["LTR-RC"]="Legendary Treasures",
  ["LTR"]="Legendary Treasures",
  ["PLB"]="Plasma Blast",
  ["PLF"]="Plasma Freeze",
@@ -126,11 +130,13 @@ CodeToSet={
  ["EPO"]="Emerging Powers",
  ["MCD11"]="McDonald's Collection 2011",
  ["BLW"]="Black & White",
+ ["BWP"]="BW Black Star Promos",
  ["PR-BLW"]="BW Black Star Promos",
  ["CL"]="Call of Legends",
  ["TM"]="HS—Triumphant",
  ["UD"]="HS—Undaunted",
  ["UL"]="HS—Unleashed",
+ ["HSP"]="HGSS Black Star Promos",
  ["PR-HS"]="HGSS Black Star Promos",
  ["HS"]="HeartGold & SoulSilver",
  ["RM"]="Pokémon Rumble",
@@ -159,6 +165,8 @@ CodeToSet={
  ["MT"]="Mysterious Treasures",
  ["DP"]="Diamond & Pearl",
  ["PR-DPP"]="DP Black Star Promos",
+ ["PR-DP"]="DP Black Star Promos",
+ ["DPP"]="DP Black Star Promos",
  ["PK"]="Power Keepers",
  ["P5"]="POP Series 5",
  ["POP5"]="POP Series 5",
@@ -172,10 +180,10 @@ CodeToSet={
  ["P3"]="POP Series 3",
  ["POP3"]="POP Series 3",
  ["pop3"]="POP Series 3",
- ["TK2M"]="Trainer Kit EX Plusle and Minun",
- ["TK2P"]="Trainer Kit EX Plusle and Minun",
- ["TK2B"]="Trainer Kit EX Plusle and Minun",
- ["TK2A"]="Trainer Kit EX Plusle and Minun",
+ ["TK2M"]="Trainer Kit EX Minun",
+ ["TK2P"]="Trainer Kit EX Plusle",
+ ["TK2B"]="Trainer Kit EX Minun",
+ ["TK2A"]="Trainer Kit EX Plusle",
  ["LM"]="Legend Maker",
  ["DS"]="Delta Species",
  ["P2"]="POP Series 2",
@@ -190,9 +198,9 @@ CodeToSet={
  ["pop1"]="POP Series 1",
  ["RG"]="FireRed & LeafGreen",
  ["HL"]="Hidden Legends",
- ["TK1O"]="Trainer Kit EX Latias and Latios",
- ["TK1A"]="Trainer Kit EX Latias and Latios",
- ["TK1B"]="Trainer Kit EX Latias and Latios",
+ ["TK1O"]="Trainer Kit EX Latios",
+ ["TK1A"]="Trainer Kit EX Latias",
+ ["TK1B"]="Trainer Kit EX Latios",
  ["MA"]="Team Magma vs Team Aqua",
  ["PR-NP"]="Nintendo Black Star Promos",
  ["DR"]="Dragon",
@@ -215,39 +223,13 @@ CodeToSet={
  ["G2"]="Gym Challenge",
  ["G1"]="Gym Heroes",
  ["TR"]="Team Rocket",
+ ["BS2"]="Base Set 2",
  ["B2"]="Base Set 2",
  ["FO"]="Fossil",
  ["JU"]="Jungle",
  ["BS"]="Base Set",
  ["PR"]="Wizards Black Star Promos",
  ["WP"]="Wizards Black Star Promos",
-}
-
-prefixs={
- ["CRZGG"]="GG",
- ["CRZ-GG"]="GG",
- ["SITTG"]="TG",
- ["LORTG"]="TG",
- ["ASRTG"]="TG",
- ["BRSTG"]="TG",
- ["SIT-TG"]="TG",
- ["LOR-TG"]="TG",
- ["ASR-TG"]="TG",
- ["BRS-TG"]="TG",
- ["SHFSV"]="SV",
- ["PR-SW"]="SWSH",
- ["SWP"]="SWSH",
- ["HIFSV"]="SV",
- ["SMA"]="SV",
- ["sma"]="SV",
- ["PR-SM"]="SM",
- ["PR-XY"]="XY",
- ["PR-BW"]="BW",
- ["PR-HS"]="HGSS",
- ["SMP"]="SM",
- ["XYP"]="XY",
- ["BWP"]="BW",
- ["HSP"]="HGSS",
 }
 
 legacyEnergySets={
@@ -610,6 +592,38 @@ letterToEnergy={
  Y="Fairy"
 }
 
+prefixs={
+ ["CRZGG"]="GG",
+ ["CRZ-GG"]="GG",
+ ["SITTG"]="TG",
+ ["LORTG"]="TG",
+ ["ASRTG"]="TG",
+ ["BRSTG"]="TG",
+ ["SIT-TG"]="TG",
+ ["LOR-TG"]="TG",
+ ["ASR-TG"]="TG",
+ ["BRS-TG"]="TG",
+ ["SHFSV"]="SV",
+ ["PR-SW"]="SWSH",
+ ["SWP"]="SWSH",
+ ["HIFSV"]="SV",
+ ["SMA"]="SV",
+ ["sma"]="SV",
+ ["PR-SM"]="SM",
+ ["PR-XY"]="XY",
+ ["PR-BW"]="BW",
+ ["PR-HS"]="HGSS",
+ ["PR-DP"]="DP",
+ ["PR-DPP"]="DP",
+ ["SMP"]="SM",
+ ["XYP"]="XY",
+ ["BWP"]="BW",
+ ["HSP"]="HGSS",
+ ["DPP"]="DP",
+ ["LTR-RC"]="RC",
+ ["GEN-RC"]="RC",
+}
+
 normalSetToEnergy={
  SUM=17,
  TEU=26,
@@ -628,6 +642,14 @@ energySets={
 }
 
 APIminDigits={
+ ["PR-NP"]=3,
+ ["DPP"]=2,
+ ["PR-DP"]=2,
+ ["PR-DPP"]=2,
+ ["HSP"]=2,
+ ["PR-HS"]=2,
+ ["BWP"]=2,
+ ["PR-BW"]=2,
  ["XYP"]=2,
  ["PR-XY"]=2,
  ["SMP"]=2,
@@ -663,6 +685,8 @@ Zapdos="CC7",
 }
 
 overflows={
+ LTR={"LTR-RC",115},
+ GEN={"GEN-RC",83},
  HIF={"HIFSV",69},
  SHF={"SHFSV",73},
  BRS={"BRSTG",186},
@@ -672,27 +696,26 @@ overflows={
  CRZ={"CRZGG",160},
 }
 
-lastSearchText=false
-lastSearchCount=false
-lastSearchTotal=false
-curPos=0
-curStart=1
+conversions={
+ TM={["103"]="FOUR"},
+ UD={["91"]="THREE"},
+ UL={["96"]="TWO"},
+ HS={["124"]="ONE"}
+}
+
 quantity={}
-energy={}
 cardNum=0
 spawnData={}
-curSet=16
 
 function onLoad(state)
- local strValue=""
- if not(not state or state=="")then
-  state=json.parse(state)
-  strValue=state.value or""
-  curSet=state.curSet or 16
+ settings=Global.GetTable("PPacks")
+ if not settings then
+  if state and state!=""then settings=json.parse(state)else settings={energy=1,on=true,spread=false,hundred=false,debug=false,slotTest=false,allGods=false}end
+  Global.SetTable("PPacks",settings)
  end
  params={
   function_owner=self,
-  position={0,0.1,3.3},
+  position={0,0.1,3},
   tooltip="Enter the term to search here.",
   label='Enter Deck List',
   font_size=70,
@@ -702,14 +725,51 @@ function onLoad(state)
   input_function="saveData",
   font_color={0,0,0},
   scale={0.75,1,0.5},
-  value=strValue,
+  value=self.GetMemo(),
  }
  self.createInput(params)
  setUpButtons()
+ setUpContextMenu()
+end
+
+function setUpContextMenu()
+ if settings.debug then
+  addContextToggle("hundred","100 Packs")
+  addContextToggle("slotTest","Slot Test")
+  addContextToggle("on","Packs")
+  addContextToggle("allGods","All God Packs")
+  addSetting("Close Debug Menu","debug",false)
+ end
+ if settings.energy~=1 then addSetting("Enable Pack Energy","energy",1)end
+ if settings.energy~=0 then addSetting("Disable Pack Energy","energy",0)end
+ if settings.energy~=2 then addSetting("Replace Pack Energy","energy",2)end
+ addContextToggle("spread","Pack Spread")
+ if not settings.debug then addSetting("Open Debug Menu","debug",true)end
+end
+
+function addContextToggle(setting,desc)
+ if settings[setting]then
+  addSetting("Disable "..desc,setting,false)
+ else
+  addSetting("Enable "..desc,setting,true)
+ end
+end
+
+function addSetting(text,setName,setting)
+ self.addContextMenuItem(text,function()changeSettings(setName,setting)end)
 end
 
 function saveData()
- self.script_state=json.serialize({value=self.getInputs()[1].value,curSet=curSet})
+ self.script_state=json.serialize(settings)
+ self.SetMemo(self.getInputs()[1].value)
+end
+
+function changeSettings(setting,value)
+ settings[setting]=value
+ self.clearContextMenu()
+ setUpContextMenu(settings)
+ Global.SetTable("PPacks",settings)
+ saveData()
 end
 
 function setUpButtons()
@@ -741,14 +801,16 @@ function addQuantity(set,cardNum,quant)
  cardsNum=cardsNum+quant
 end
 
+function ReadInput()
+end
+
 function loadDecklist(obj,color,alt)
  quantity={}
- energy={}
  cardsNum=0
  local deckText=self.getInputs()[1].value
  for line in string.gmatch(deckText,"[^\r\n]+")do
   local words={}
-  for c in string.gmatch(line,"[%d%a!?-]+")do
+  for c in string.gmatch(line,"[%d%a/!?-]+")do
    words[#words+1]=c
   end
   local wordsNum=tonumber(words[1])
@@ -758,7 +820,7 @@ function loadDecklist(obj,color,alt)
    end
    local setName=words[#words-1]
    local cardNum=words[#words]
-   if overflows[setName]and tonumber(cardNum)>overflows[setName][2] then
+   if overflows[setName]and tonumber(cardNum)and tonumber(cardNum)>overflows[setName][2] then
     cardNum=tostring(tonumber(cardNum)-overflows[setName][2])
     setName=overflows[setName][1]
    elseif setName=="CEL"then
@@ -790,6 +852,7 @@ function loadDecklist(obj,color,alt)
       local prefix=string.match(cardNum,"^%a+")or""
       cardNum=string.gsub(cardNum,"%a","")
       local digits=APIminDigits[setName]
+      if(setName=="BWP"or setName=="BW-PR")and(cardNum=="4"or cardNum=="5")then digits=3 end
       if #cardNum>digits then
        cardNum=string.gsub(cardNum,"^0+","",1)
       elseif #cardNum<digits then
@@ -800,6 +863,7 @@ function loadDecklist(obj,color,alt)
      if prefixs[setName]and not startsWith(cardNum,prefixs[setName]) then
       cardNum=prefixs[setName]..cardNum
      end
+     if conversions[setName]and conversions[setName][cardNum]then cardNum=conversions[setName][cardNum]end
      addQuantity(boxName,cardNum,wordsNum)
     end
    elseif energySets[setName]then
@@ -844,15 +908,14 @@ setID="error"
 setName="ERROR"
 
 function getDeck(color)
- local spawnPos=self.positionToWorld({0,2,0})
- packData=getDeckData(spawnPos,self.getRotation(),false)
+ packData=""
  for set,cards in pairs(quantity)do
   setName=set
   if set=="LegacyEnergy"then
    for num,quant in pairs(cards)do
     local card=legacyEnergy[tonumber(num)]
     card.ID=19759+tonumber(num)
-    card.GMN="80000000"
+    card.GMN="90000000"
     card.typ="500"
     card.num=""
     card.date=legacyEnergySets[math.floor(num/9)+1].date
@@ -866,7 +929,7 @@ function getDeck(color)
     local card=SVE[num]
     DeckID=19812
     setID="sve"
-    card.GMN="80000000"
+    card.GMN="90000000"
     card.typ="500"
     for c=1,quant do
      addCard(tostring(num),card)
@@ -877,7 +940,7 @@ function getDeck(color)
     local card=MEE[num]
     setID="mee"
     DeckID=19837
-    card.GMN="80000000"
+    card.GMN="90000000"
     card.typ="500"
     for c=1,quant do
      addCard(tostring(num),card)
@@ -904,12 +967,16 @@ function getDeck(color)
    end
   end
  end
- local deck=spawnObjectData({data=packData})
+ local deck=spawnObjectData({data=sortDeck(packData)})
 end
 
-function getDeckData(spawnPos,cardRot,hands)
+function GetTrans(spawnPos,cardRot)
+return {posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1}
+end
+
+function getDeckData(trans,hands)
  return {Name="Deck",
-  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Transform=trans,
   Hands=hands,
   DeckIDs={},
   CustomDeck={},
@@ -917,9 +984,13 @@ function getDeckData(spawnPos,cardRot,hands)
  }
 end
 
+function isEnergy(num)
+ return(startsWith(num,"E")and #num>1)
+end
+
 function getTrueNumber(num,card)
  if card.num then return card.num end
- if startsWith(num,"E")then return num:sub(2)else return num end
+ if isEnergy(num)then return num:sub(2)else return num end
 end
 
 function removeLeadingZeros(num)
@@ -930,10 +1001,25 @@ function getDeckID(num,card)
  return card.ID or DeckID+tonumber(getTrueNumber(num,card))
 end
 
-function addCard(num,card)
+function addToPackdata(num,card)
  packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
  packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
- packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(GetTrans(self.positionToWorld({0,4,0}),self.getRotation()),num,card)
+end
+
+function addCard(num,card)
+ if packData["Name"]=="Deck"then
+  addToPackdata(num,card)
+ elseif packData["Name"]=="CardCustom"then
+  local newPackData=getDeckData(packData.Transform,false)
+  newPackData.DeckIDs[1]=packData.CardID/100
+  newPackData.CustomDeck=packData.CustomDeck
+  newPackData.ContainedObjects[1]=packData
+  packData=newPackData
+  addToPackdata(num,card)
+ else
+  packData=getCardTable(GetTrans(self.positionToWorld({0,4,0}),self.getRotation()),num,card)
+ end
 end
 
 function getCardTable(trans,num,card)
@@ -973,7 +1059,7 @@ function getCustomData(num,card)
    if subSetID and startsWith(num,subSetPre) then
     ID=subSetID
    end
-   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+   image="https://images.scrydex.com/pokemon/"..ID.."-"..num.."/large"
   end
  end
  return{FaceURL=image,
@@ -1001,6 +1087,17 @@ function buildCardNumber(cardNum,minDigit)
  end
  while #cardNum<minDigit do cardNum="0"..cardNum end
  return cardNum
+end
+
+function sortDeck(data)--credit to dzikakulka
+ if data.Name=="Deck"then
+  table.sort(data.ContainedObjects,sortByPoke)
+  data.DeckIDs={}
+  for c=1,#data.ContainedObjects do
+   table.insert(data.DeckIDs,data.ContainedObjects[c].CardID)
+  end
+ end
+ return data
 end
 
 function sortByPoke(a,b)

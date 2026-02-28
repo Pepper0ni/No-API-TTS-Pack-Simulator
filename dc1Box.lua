@@ -8,15 +8,15 @@ setID="dc1"
 noBox=true
 dropSlots=[[{
 --1 U
-  {cards={{23,34}},size=12,num=2},
+  {cards={{'23','34'}},size=12,num=2},
 --2 ex
-  {cards={6,15},num=0},
+  {cards={'6','15'},num=0},
 --3 RH
-  {cards={2,5,8,11,14,21},num=0},
+  {cards={'2','5','8','11','14','21'},num=0},
 --4 rev
-  {cards={{1,5},{7,14},{16,34}},size=32,num=1},
+  {cards={{'1','5'},{'7','14'},{'16','34'}},size=32,num=1},
 --5 C
-  {cards={1,3,4,7,9,10,12,13,{16,20},22},size=14,num=3},
+  {cards={'1','3','4','7','9','10','12','13',{'16','20'},'22'},size=14,num=3},
 }]]
 pullRates=[[{
 --rare
@@ -25,210 +25,213 @@ pullRates=[[{
   {slot=3}--RH
  },num=1},
 }]]
-cardData= {{
+cardString=[[
+cardData={["1"]={
  name="Team Magma's Numel",
- num="1",
- rar="C",
  GMN="00322000",
  typ="22",
-},{
+ rar="C"
+},
+["2"]={
  name="Team Magma's Camerupt",
- num="2",
- rar="RH",
  GMN="00323000",
  typ="22",
-},{
+ rar="RH"
+},
+["3"]={
  name="Team Aqua's Spheal",
- num="3",
- rar="C",
  GMN="00363000",
  typ="33",
-},{
+ rar="C"
+},
+["4"]={
  name="Team Aqua's Sealeo",
- num="4",
- rar="C",
  GMN="00364000",
  typ="33",
-},{
+ rar="C"
+},
+["5"]={
  name="Team Aqua's Walrein",
- num="5",
- rar="RH",
  GMN="00365000",
  typ="33",
-},{
+ rar="RH"
+},
+["6"]={
  name="Team Aqua's Kyogre-EX",
- num="6",
- rar="RU",
  GMN="00382003",
  typ="33",
-},{
+ rar="RU"
+},
+["7"]={
  name="Team Aqua's Grimer",
- num="7",
- rar="C",
  GMN="00088000",
  typ="55",
-},{
+ rar="C"
+},
+["8"]={
  name="Team Aqua's Muk",
- num="8",
- rar="RH",
  GMN="00089000",
  typ="55",
-},{
+ rar="RH"
+},
+["9"]={
  name="Team Aqua's Seviper",
- num="9",
- rar="C",
  GMN="00336000",
  typ="55",
-},{
+ rar="C"
+},
+["10"]={
  name="Team Magma's Baltoy",
- num="10",
- rar="C",
  GMN="00343000",
  typ="55",
-},{
+ rar="C"
+},
+["11"]={
  name="Team Magma's Claydol",
- num="11",
- rar="RH",
  GMN="00344000",
  typ="55",
-},{
+ rar="RH"
+},
+["12"]={
  name="Team Magma's Aron",
- num="12",
- rar="C",
  GMN="00304000",
  typ="66",
-},{
+ rar="C"
+},
+["13"]={
  name="Team Magma's Lairon",
- num="13",
- rar="C",
  GMN="00305000",
  typ="66",
-},{
+ rar="C"
+},
+["14"]={
  name="Team Magma's Aggron",
- num="14",
- rar="RH",
  GMN="00306000",
  typ="66",
-},{
+ rar="RH"
+},
+["15"]={
  name="Team Magma's Groudon-EX",
- num="15",
- rar="RU",
  GMN="00383003",
  typ="66",
-},{
+ rar="RU"
+},
+["16"]={
  name="Team Aqua's Poochyena",
- num="16",
- rar="C",
  GMN="00261000",
  typ="77",
-},{
+ rar="C"
+},
+["17"]={
  name="Team Magma's Poochyena",
- num="17",
- rar="C",
  GMN="00261000",
  typ="77",
-},{
+ rar="C"
+},
+["18"]={
  name="Team Aqua's Mightyena",
- num="18",
- rar="C",
  GMN="00262000",
  typ="77",
-},{
+ rar="C"
+},
+["19"]={
  name="Team Magma's Mightyena",
- num="19",
- rar="C",
  GMN="00262000",
  typ="77",
-},{
+ rar="C"
+},
+["20"]={
  name="Team Aqua's Carvanha",
- num="20",
- rar="C",
  GMN="00318000",
  typ="77",
-},{
+ rar="C"
+},
+["21"]={
  name="Team Aqua's Sharpedo",
- num="21",
- rar="RH",
  GMN="00319000",
  typ="77",
-},{
+ rar="RH"
+},
+["22"]={
  name="Team Magma's Zangoose",
- num="22",
- rar="C",
  GMN="00335000",
  typ="121",
-},{
+ rar="C"
+},
+["23"]={
  name="Aqua Diffuser",
- num="23",
- rar="U",
  GMN="60000000",
  typ="500",
-},{
+ rar="U"
+},
+["24"]={
  name="Magma Pointer",
- num="24",
- rar="U",
  GMN="60000000",
  typ="500",
-},{
+ rar="U"
+},
+["25"]={
  name="Team Aqua Admin",
- num="25",
- rar="U",
  GMN="40000000",
  typ="500",
-},{
+ rar="U"
+},
+["26"]={
  name="Team Aqua Grunt",
- num="26",
- rar="U",
  GMN="40000000",
  typ="500",
-},{
+ rar="U"
+},
+["27"]={
  name="Team Aqua's Great Ball",
- num="27",
- rar="U",
  GMN="30000000",
  typ="500",
-},{
+ rar="U"
+},
+["28"]={
  name="Team Aqua's Secret Base",
- num="28",
- rar="U",
  GMN="50000000",
  typ="500",
-},{
+ rar="U"
+},
+["29"]={
  name="Team Magma Admin",
- num="29",
- rar="U",
  GMN="40000000",
  typ="500",
-},{
+ rar="U"
+},
+["30"]={
  name="Team Magma Grunt",
- num="30",
- rar="U",
  GMN="40000000",
  typ="500",
-},{
+ rar="U"
+},
+["31"]={
  name="Team Magma's Great Ball",
- num="31",
- rar="U",
  GMN="30000000",
  typ="500",
-},{
+ rar="U"
+},
+["32"]={
  name="Team Magma's Secret Base",
- num="32",
- rar="U",
  GMN="50000000",
  typ="500",
-},{
+ rar="U"
+},
+["33"]={
  name="Double Aqua Energy",
- num="33",
- rar="U",
  GMN="80000000",
  typ="500",
-},{
+ rar="U"
+},
+["34"]={
  name="Double Magma Energy",
- num="34",
- rar="U",
  GMN="80000000",
- typ="500"}}
+ typ="500",
+ rar="U"
+}}
+]]
+energyString="energy={}"
 
 boxScript=[[
  function onLoad(state)
@@ -292,29 +295,31 @@ function Spread(width)
 end
 ]]
 
-function makeDataString()
- local string=logString(cardData)
- string=string.gsub(string,"  +\""," ")
- string=string.gsub(string," 1: ","{{")
- string=string.gsub(string," +%d+: ","},{")
- string=string.gsub(string,"\": ","=\"")
- string=string.gsub(string,"([^%{%}])\n","%1\",\n")
- return 'dropSlots='..dropSlots..'\npullRates='..pullRates..'\nsetName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\ncardData='..string..'"}}\n'
-end
-
-dataString=makeDataString()
-
 packData={}
 
 function onObjectLeaveContainer(cont,leaving)
  if cont~=self then return end
  leaving.setCustomObject({diffuse=getRandomArt()})
- leaving.setLuaScript(dataString..leaving.getLuaScript())
+ leaving.setLuaScript(cardString.."\n"..leaving.getLuaScript())
+ leaving.setLuaScript(energyString.."\n"..leaving.getLuaScript())
+ leaving.setLuaScript(dataString.."\n"..leaving.getLuaScript())
 end
 
 function onNumberTyped(color,num)--credit Eldin
  for x=1,num do Wait.frames(function()self.deal(1,color)end,x)end
  return true
+end
+
+function makeDataString()
+ local str='\ndataString=[[\ndropSlots='..dropSlots..'\npullRates='..pullRates..'\nsetName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\n'
+ if subSetID then
+  str=str..'\nsubSetName="'..subSetName..'"\nsubSetID="'..subSetID..'"\nsubSetPre="'..subSetPre..'"\n'
+ end if godChance then
+  str=str..'\ngodChance='..tostring(godChance)..'\ngodSlot='..tostring(godSlot)..'\ngodPacks='..godPacks..'\n'
+ end
+ str=str.."]]"
+ self.setLuaScript(self.getLuaScript()..str)
+ self.Reload()
 end
 
 function onLoad(state)
@@ -332,7 +337,10 @@ function onLoad(state)
  self.max_typed_number=99
  saveData()
  setUpButtons()
- setUpContextMenu()
+ if not cardData then
+  self.setLuaScript(self.getLuaScript()..cardString)
+  makeDataString()
+ end
 end
 
 function setUpButtons()
@@ -356,77 +364,108 @@ function butWrapper(params,pos,label,tool,func)
  self.createButton(params)
 end
 
-function setUpContextMenu()
- if settings.debug then
-  addContextToggle("hundred","100 Packs")
-  addContextToggle("slotTest","Slot Test")
-  addContextToggle("on","Packs")
-  addContextToggle("allGods","All God Packs")
-  addSetting("Close Debug Menu","debug",false)
- end
- if settings.energy~=1 then addSetting("Enable Energy","energy",1)end
- if settings.energy~=0 then addSetting("Disable Energy","energy",0)end
- if settings.energy~=2 then addSetting("Replace Energy","energy",2)end
- addContextToggle("spread","Spread")
- if not settings.debug then addSetting("Open Debug Menu","debug",true)end
-end
-
-function addContextToggle(setting,desc)
- if settings[setting]then
-  addSetting("Disable "..desc,setting,false)
- else
-  addSetting("Enable "..desc,setting,true)
- end
-end
-
-function addSetting(text,setName,setting)
- self.addContextMenuItem(text,function()changeSettings(setName,setting)end)
-end
-
-function changeSettings(setting,value)
- settings[setting]=value
- self.clearContextMenu()
- setUpContextMenu(settings)
- Global.SetTable("PPacks",settings)
- saveData()
-end
-
 function getSet(obj,color,alt)
  local spawnPos=self.positionToWorld({0,1,7})
  packData=getDeckData(spawnPos,self.getRotation(),false)
- for a=1,#cardData do
-  addCard(packs,a)
+ for num,card in pairs(cardData) do
+  addCard(num,card)
  end
  local deck=spawnObjectData({data=packData})
 end
 
-function getDeckData(spawnPos,cardRot,hands)
- return {Name="Deck",
-  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
-  Hands=hands,
-  DeckIDs={},
-  CustomDeck={},
-  ContainedObjects={}
+function getCardData(num)
+ if startsWith(num,"E")then
+  return energy[num:sub(2)]
+ elseif num=="VStar"then
+  return energy["VStar"]
+ end
+ return cardData[num]
+end
+
+function getTrueNumber(num,card)
+ if card.num then return card.num end
+ if startsWith(num,"E")then return num:sub(2)else return num end
+end
+
+function removeLeadingZeros(num)
+ if tonumber(num)then return string.format("%u", num)else return num end
+end
+
+function getDeckID(num,card)
+ return card.ID or DeckID+tonumber(getTrueNumber(num,card))
+end
+
+function addCard(num,card)
+ packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
+ packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+end
+
+function getCardTable(trans,num,card)
+ local des=card.setName
+ if not des then
+  if subSetID and startsWith(num,subSetPre)then
+   des=subSetName
+  else
+   des=setName
+  end
+ end
+ if card.num!=""then
+  des=des.." #"..getTrueNumber(num,card)
+ end
+ if card.rar then
+  des=des.." "..card.rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=card.name,
+ Description=des,
+ GMNotes=card.GMN,
+ Memo=(card.date or date)..buildCardNumber(num,3),
+ CardID=getDeckID(num,card)*100,
+ CustomDeck={[getDeckID(num,card)]=getCustomData(num,card)},
+ LuaScriptState=card.typ
+}
+end
+
+function getCustomData(num,card)
+ local image=card.image
+ if not image then
+  if card.steamUrl then
+   image=getSteamUrl(card.steamUrl)
+  else
+   local ID=setID
+   if subSetID and startsWith(num,subSetPre) then
+    ID=subSetID
+   end
+   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+  end
+ end
+ return{FaceURL=image,
+  BackURL=card.back or"https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
  }
 end
 
-function addCard(packs,num)
- packData.DeckIDs[#packData.DeckIDs+1]=(DeckID+num)*100
- packData.CustomDeck[DeckID+num]=getCustomData(num)
- packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num)
-end
-
-function getCardTable(trans,num)
- return{Name="CardCustom",
- Transform=trans,
- Nickname=cardData[num].name,
- Description=setName.." #"..cardData[num].num.." "..(cardData[num].rar or ""),
- GMNotes=cardData[num].GMN,
- Memo=date..buildCardNumber(cardData[num].num,3),
- CardID=(DeckID+num)*100,
- CustomDeck={[DeckID+num]=getCustomData(num)},
- LuaScriptState=cardData[num].typ
-}
+function buildCardNumber(cardNum,minDigit)
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
+  end
+ else
+  cardNum="0"
+ end
+ while #cardNum<minDigit do cardNum="0"..cardNum end
+ return cardNum
 end
 
 function getBox(obj,color,alt)
@@ -446,9 +485,6 @@ function getBox(obj,color,alt)
   boxID=math.random(-2147483648,2147483646)
   packScript='boxPulls='..boxPulls..'\nboxID='..tostring(boxID)..'\n'..packScript
  end
- if subSetID then
-  packScript='size='..tostring(size)..'\nsubSetID='..subSetID..'\n'..packScript
- end
  for c=1,36 do
   local packInBox=self.getData().ContainedObjects[1]
   packInBox.Transform=boxTrans
@@ -457,38 +493,6 @@ function getBox(obj,color,alt)
   boxData.ContainedObjects[c]=packInBox
  end
  spawnObjectData({data=boxData,position=spawnPos,rotation=self.GetRotation()})
-end
-
-function getCustomData(num)
- local image=cardData[num].image
- if not image then
-  local ID=setID
-  if subSetID and num>size then
-   ID=subSetID
-  end
-   image="https://images.pokemontcg.io/"..ID.."/"..cardData[num].num.."_hires.png?count="..buildCardNumber(cardData[num].num,1)
- end
- return{FaceURL=image,
-  BackURL="https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
-  NumWidth=1,
-  NumHeight=1,
-  BackIsHidden=true
- }
-end
-
-function buildCardNumber(cardNum,minDigit)
- local numOnly=string.gsub(cardNum,"[^%d]","")
- if numOnly~=cardNum then
-  local finalNum=(tonumber(numOnly)or 0)+500
-  for c in cardNum:gmatch"[^%d]" do
-   if c=="?"then c="}"end
-   if c=="!"then c="{"end
-   finalNum=string.byte(c)-65+finalNum
-  end
-  cardNum=tostring(finalNum)
- end
- while #cardNum<minDigit do cardNum="0"..cardNum end
- return cardNum
 end
 
 function getSteamUrl(url)
@@ -501,4 +505,19 @@ end
 
 function getRandomArt()
  return getSteamUrl(art[math.random(1,#art)])
+end
+
+function startsWith(input,prefix)
+ if not prefix then return false end
+ return string.sub(input,1,#prefix)==prefix
+end
+
+function getDeckData(spawnPos,cardRot,hands)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
 end

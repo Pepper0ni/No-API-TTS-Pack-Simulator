@@ -1,247 +1,67 @@
-setName="Nintendo Black Star Promos"
-DeckID=1789
-date="20030512"
-setID="np"
+setName="Trainer Kit EX Plusle"
+DeckID=3093
+date="20060301"
+setID="tk2a"
 cardString=[[
-cardData={["001"]={
- name="Kyogre ex",
- GMN="00382003",
- typ="33",
- rar="P"
-},
-["002"]={
- name="Groudon ex",
- GMN="00383003",
- typ="66",
- rar="P"
-},
-["003"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
-},
-["004"]={
- name="Grovyle",
- GMN="00253000",
- typ="11",
- rar="P"
-},
-["005"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
-},
-["006"]={
- name="Torchic",
- GMN="00255000",
- typ="22",
- rar="P"
-},
-["007"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
-},
-["008"]={
- name="Torchic",
- GMN="00255000",
- typ="22",
- rar="P"
-},
-["009"]={
- name="Combusken",
- GMN="00256000",
- typ="22",
- rar="P"
-},
-["010"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
-},
-["011"]={
- name="Marshtomp",
- GMN="00259000",
- typ="33",
- rar="P"
-},
-["012"]={
- name="Pikachu",
- GMN="00025000",
- typ="44",
- rar="P"
-},
-["013"]={
- name="Meowth",
- GMN="00052000",
- typ="121",
- rar="P"
-},
-["014"]={
- name="Latias",
- GMN="00380000",
- typ="121",
- rar="P"
-},
-["015"]={
- name="Latios",
- GMN="00381000",
- typ="121",
- rar="P"
-},
-["016"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
-},
-["017"]={
- name="Torchic",
- GMN="00255000",
- typ="22",
- rar="P"
-},
-["018"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
-},
-["019"]={
- name="Whismur",
- GMN="00293000",
- typ="121",
- rar="P"
-},
-["020"]={
- name="Ludicolo",
- GMN="00272000",
- typ="33",
- rar="P"
-},
-["021"]={
- name="Jirachi",
- GMN="00385000",
- typ="55",
- rar="P"
-},
-["022"]={
+cardData={["1"]={
  name="Beldum",
  GMN="00374000",
- typ="88",
- rar="P"
+ typ="55"
 },
-["023"]={
+["2"]={
+ name="Electrike",
+ GMN="00309000",
+ typ="44"
+},
+["3"]={
+ name="Grumpig",
+ GMN="00326000",
+ typ="55"
+},
+["4"]={
+ name="Meowth",
+ GMN="00052000",
+ typ="121"
+},
+["5"]={
  name="Metang",
  GMN="00375000",
- typ="88",
- rar="P"
+ typ="55"
 },
-["024"]={
- name="Chimecho",
- GMN="00358000",
- typ="55",
- rar="P"
+["6"]={
+ name="Plusle",
+ GMN="00311000",
+ typ="44"
 },
-["025"]={
- name="Flygon",
- GMN="00330000",
- typ="121",
- rar="P"
+["7"]={
+ name="Spoink",
+ GMN="00325000",
+ typ="55"
 },
-["026"]={
- name="Tropical Wind",
+["8"]={
+ name="Energy Search",
  GMN="30000000",
- typ="500",
- rar="P"
+ typ="500"
 },
-["027"]={
- name="Tropical Tidal Wave",
+["9"]={
+ name="Potion",
  GMN="30000000",
- typ="500",
- rar="P"
+ typ="500"
 },
-["028"]={
- name="Championship Arena",
- GMN="50000000",
- typ="500",
- rar="P"
+["10"]={
+ name="Professor Cozmo's Discovery",
+ GMN="40000000",
+ typ="500"
 },
-["029"]={
- name="Celebi",
- GMN="00251000",
- typ="11",
- rar="P"
+["11"]={
+ name="Lightning Energy",
+ GMN="90000000",
+ typ="500"
 },
-["030"]={
- name="Suicune",
- GMN="00245000",
- typ="33",
- rar="P"
-},
-["031"]={
- name="Moltres ex",
- GMN="00146003",
- typ="22",
- rar="P"
-},
-["032"]={
- name="Articuno ex",
- GMN="00144003",
- typ="33",
- rar="P"
-},
-["033"]={
- name="Zapdos ex",
- GMN="00145003",
- typ="44",
- rar="P"
-},
-["034"]={
- name="Typhlosion",
- GMN="00157000",
- typ="22",
- rar="P"
-},
-["035"]={
- name="Pikachu δ",
- GMN="00025000",
- typ="88",
- rar="P"
-},
-["036"]={
- name="Tropical Tidal Wave",
- GMN="30000000",
- typ="500",
- rar="P"
-},
-["037"]={
- name="Kyogre ex",
- GMN="00382003",
- typ="33",
- rar="P"
-},
-["038"]={
- name="Groudon ex",
- GMN="00383003",
- typ="66",
- rar="P"
-},
-["039"]={
- name="Rayquaza ex",
- GMN="00384003",
- typ="121",
- rar="P"
-},
-["040"]={
- name="Mew",
- GMN="00151000",
- typ="55",
- rar="P"
+["12"]={
+ name="Psychic Energy",
+ GMN="90000000",
+ typ="500"
 }}
 ]]
 
@@ -391,3 +211,4 @@ function buildCardNumber(cardNum,minDigit)
  while #cardNum<minDigit do cardNum="0"..cardNum end
  return cardNum
 end
+

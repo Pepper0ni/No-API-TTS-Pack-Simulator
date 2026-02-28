@@ -48,9 +48,14 @@ function getSet(obj,color,alt)
  local deck=spawnObjectData({data=packData})
 end
 
+function isEnergy(num)
+ return(startsWith(num,"E")and #num>1)
+end
+
+
 function getTrueNumber(num,card)
  if card.num then return card.num end
- if startsWith(num,"E")then return num:sub(2)else return num end
+ if isEnergy(num)then return num:sub(2)else return num end
 end
 
 function removeLeadingZeros(num)
@@ -104,7 +109,7 @@ function getCustomData(num,card)
    if subSetID and startsWith(num,subSetPre) then
     ID=subSetID
    end
-   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+   image="https://images.scrydex.com/pokemon/"..ID.."-"..num.."/large"
   end
  end
  return{FaceURL=image,

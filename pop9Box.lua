@@ -7,13 +7,13 @@ noBox=true
 setID="pop9"
 dropSlots=[[{
 --1 C
-  {cards={{12,17}},num=1,size=6},
+  {cards={{"12","17"}},num=1,size=6},
 --2 R
-  {cards={{1,5}},num=0,size=5},
+  {cards={{"1","5"}},num=0,size=5},
 --3 U
-  {cards={{6,11}},num=0,size=6},
+  {cards={{"6","11"}},num=0,size=6},
 --4 energy TODO add energy
--- {cards={{18,25}},num=1,size=8},
+  {cards={{1,8}},prefix="E",num=1,size=8},
 }]]
 pullRates=[[{
 --unc
@@ -23,109 +23,185 @@ pullRates=[[{
   {slot=1}--C
  },num=1}
 }]]
-cardData={{
+cardString=[[
+cardData={["1"]={
  name="Garchomp",
- num="1",
- rar="R",
  GMN="00445000",
  typ="121",
-},{
+ rar="R"
+},
+["2"]={
  name="Manaphy",
- num="2",
- rar="R",
  GMN="00490000",
  typ="33",
-},{
+ rar="R"
+},
+["3"]={
  name="Raichu",
- num="3",
- rar="R",
  GMN="00026000",
  typ="44",
-},{
+ rar="R"
+},
+["4"]={
  name="Regigigas",
- num="4",
- rar="R",
  GMN="00486000",
  typ="121",
-},{
+ rar="R"
+},
+["5"]={
  name="Rotom",
- num="5",
- rar="R",
  GMN="00479000",
  typ="44",
-},{
+ rar="R"
+},
+["6"]={
  name="Buizel",
- num="6",
- rar="U",
  GMN="00418000",
  typ="33",
-},{
+ rar="U"
+},
+["7"]={
  name="Croagunk",
- num="7",
- rar="U",
  GMN="00453000",
  typ="55",
-},{
+ rar="U"
+},
+["8"]={
  name="Gabite",
- num="8",
- rar="U",
  GMN="00444000",
  typ="121",
-},{
+ rar="U"
+},
+["9"]={
  name="Lopunny",
- num="9",
- rar="U",
  GMN="00428000",
  typ="121",
-},{
+ rar="U"
+},
+["10"]={
  name="Pachirisu",
- num="10",
- rar="U",
  GMN="00417000",
  typ="44",
-},{
+ rar="U"
+},
+["11"]={
  name="Pichu",
- num="11",
- rar="U",
  GMN="00024500",
  typ="44",
-},{
+ rar="U"
+},
+["12"]={
  name="Buneary",
- num="12",
- rar="C",
  GMN="00427000",
  typ="121",
-},{
+ rar="C"
+},
+["13"]={
  name="Chimchar",
- num="13",
- rar="C",
  GMN="00390000",
  typ="22",
-},{
+ rar="C"
+},
+["14"]={
  name="Gible",
- num="14",
- rar="C",
  GMN="00443000",
  typ="121",
-},{
+ rar="C"
+},
+["15"]={
  name="Pikachu",
- num="15",
- rar="C",
  GMN="00025000",
  typ="44",
-},{
+ rar="C"
+},
+["16"]={
  name="Piplup",
- num="16",
- rar="C",
  GMN="00393000",
  typ="33",
-},{
+ rar="C"
+},
+["17"]={
  name="Turtwig",
- num="17",
- rar="C",
  GMN="00387000",
- typ="11"}}
+ typ="11",
+ rar="C"
+}}
+]]
 
+energyString=[[energy={
+["1"]={
+ name="Grass Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863832988/CF6EA8E45765E56FA878C83DF984CFC07AFA497F",
+ ID=9432
+},
+["2"]={
+ name="Fire Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863837434/3516B0FA01F916B212633F1787E1891A954F4EE2",
+ ID=9433
+},
+["3"]={
+ name="Water Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863834882/FD799DE45B23E0D4AA55A5DA3758BFD4512BF928",
+ ID=9434
+},
+["4"]={
+ name="Lightning Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863834341/DF224402C3415074747FD8B071DE8FB4DD7FAFD3",
+ ID=9435
+},
+["5"]={
+ name="Psychic Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863833671/1BA63785A474429BB304C61255E4B22AFDFE9228",
+ ID=9436
+},
+["6"]={
+ name="Fighting Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863832508/AA01D7E8B52A60FF3EF5BC9C0E9B1781FCB3E536",
+ ID=9437
+},
+["7"]={
+ name="Darkness Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863835835/305F9A1F1838228443D79261AB9FA7BB3205F3AA",
+ ID=9438
+},
+["8"]={
+ name="Metal Energy",
+ GMN="90000000",
+ typ="500",
+ num="",
+ setName="Diamond & Pearl Energy",
+ steamUrl="2343629677863836773/BC1F533351EB02592819AB466D12532A53CE5298",
+ ID=9439
+}}
+]]
 
 boxScript=[[
  function onLoad(state)
@@ -189,29 +265,31 @@ function Spread(width)
 end
 ]]
 
-function makeDataString()
- local string=logString(cardData)
- string=string.gsub(string,"  +\""," ")
- string=string.gsub(string," 1: ","{{")
- string=string.gsub(string," +%d+: ","},{")
- string=string.gsub(string,"\": ","=\"")
- string=string.gsub(string,"([^%{%}])\n","%1\",\n")
- return 'dropSlots='..dropSlots..'\npullRates='..pullRates..'\nsetName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\ncardData='..string..'"}}\n'
-end
-
-dataString=makeDataString()
-
 packData={}
 
 function onObjectLeaveContainer(cont,leaving)
  if cont~=self then return end
  leaving.setCustomObject({diffuse=getRandomArt()})
- leaving.setLuaScript(dataString..leaving.getLuaScript())
+ leaving.setLuaScript(cardString.."\n"..leaving.getLuaScript())
+ leaving.setLuaScript(energyString.."\n"..leaving.getLuaScript())
+ leaving.setLuaScript(dataString.."\n"..leaving.getLuaScript())
 end
 
 function onNumberTyped(color,num)--credit Eldin
  for x=1,num do Wait.frames(function()self.deal(1,color)end,x)end
  return true
+end
+
+function makeDataString()
+ local str='\ndataString=[[\ndropSlots='..dropSlots..'\npullRates='..pullRates..'\nsetName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\n'
+ if subSetID then
+  str=str..'\nsubSetName="'..subSetName..'"\nsubSetID="'..subSetID..'"\nsubSetPre="'..subSetPre..'"\n'
+ end if godChance then
+  str=str..'\ngodChance='..tostring(godChance)..'\ngodSlot='..tostring(godSlot)..'\ngodPacks='..godPacks..'\n'
+ end
+ str=str.."]]"
+ self.setLuaScript(self.getLuaScript()..str)
+ self.Reload()
 end
 
 function onLoad(state)
@@ -229,7 +307,10 @@ function onLoad(state)
  self.max_typed_number=99
  saveData()
  setUpButtons()
- setUpContextMenu()
+ if not cardData then
+  self.setLuaScript(self.getLuaScript()..cardString)
+  makeDataString()
+ end
 end
 
 function setUpButtons()
@@ -253,77 +334,108 @@ function butWrapper(params,pos,label,tool,func)
  self.createButton(params)
 end
 
-function setUpContextMenu()
- if settings.debug then
-  addContextToggle("hundred","100 Packs")
-  addContextToggle("slotTest","Slot Test")
-  addContextToggle("on","Packs")
-  addContextToggle("allGods","All God Packs")
-  addSetting("Close Debug Menu","debug",false)
- end
- if settings.energy~=1 then addSetting("Enable Energy","energy",1)end
- if settings.energy~=0 then addSetting("Disable Energy","energy",0)end
- if settings.energy~=2 then addSetting("Replace Energy","energy",2)end
- addContextToggle("spread","Spread")
- if not settings.debug then addSetting("Open Debug Menu","debug",true)end
-end
-
-function addContextToggle(setting,desc)
- if settings[setting]then
-  addSetting("Disable "..desc,setting,false)
- else
-  addSetting("Enable "..desc,setting,true)
- end
-end
-
-function addSetting(text,setName,setting)
- self.addContextMenuItem(text,function()changeSettings(setName,setting)end)
-end
-
-function changeSettings(setting,value)
- settings[setting]=value
- self.clearContextMenu()
- setUpContextMenu(settings)
- Global.SetTable("PPacks",settings)
- saveData()
-end
-
 function getSet(obj,color,alt)
  local spawnPos=self.positionToWorld({0,1,7})
  packData=getDeckData(spawnPos,self.getRotation(),false)
- for a=1,#cardData do
-  addCard(packs,a)
+ for num,card in pairs(cardData) do
+  addCard(num,card)
  end
  local deck=spawnObjectData({data=packData})
 end
 
-function getDeckData(spawnPos,cardRot,hands)
- return {Name="Deck",
-  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
-  Hands=hands,
-  DeckIDs={},
-  CustomDeck={},
-  ContainedObjects={}
+function getCardData(num)
+ if startsWith(num,"E")then
+  return energy[num:sub(2)]
+ elseif num=="VStar"then
+  return energy["VStar"]
+ end
+ return cardData[num]
+end
+
+function getTrueNumber(num,card)
+ if card.num then return card.num end
+ if startsWith(num,"E")then return num:sub(2)else return num end
+end
+
+function removeLeadingZeros(num)
+ if tonumber(num)then return string.format("%u", num)else return num end
+end
+
+function getDeckID(num,card)
+ return card.ID or DeckID+tonumber(getTrueNumber(num,card))
+end
+
+function addCard(num,card)
+ packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
+ packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+end
+
+function getCardTable(trans,num,card)
+ local des=card.setName
+ if not des then
+  if subSetID and startsWith(num,subSetPre)then
+   des=subSetName
+  else
+   des=setName
+  end
+ end
+ if card.num!=""then
+  des=des.." #"..getTrueNumber(num,card)
+ end
+ if card.rar then
+  des=des.." "..card.rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=card.name,
+ Description=des,
+ GMNotes=card.GMN,
+ Memo=(card.date or date)..buildCardNumber(num,3),
+ CardID=getDeckID(num,card)*100,
+ CustomDeck={[getDeckID(num,card)]=getCustomData(num,card)},
+ LuaScriptState=card.typ
+}
+end
+
+function getCustomData(num,card)
+ local image=card.image
+ if not image then
+  if card.steamUrl then
+   image=getSteamUrl(card.steamUrl)
+  else
+   local ID=setID
+   if subSetID and startsWith(num,subSetPre) then
+    ID=subSetID
+   end
+   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+  end
+ end
+ return{FaceURL=image,
+  BackURL=card.back or"https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
  }
 end
 
-function addCard(packs,num)
- packData.DeckIDs[#packData.DeckIDs+1]=(DeckID+num)*100
- packData.CustomDeck[DeckID+num]=getCustomData(num)
- packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num)
-end
-
-function getCardTable(trans,num)
- return{Name="CardCustom",
- Transform=trans,
- Nickname=cardData[num].name,
- Description=setName.." #"..cardData[num].num.." "..(cardData[num].rar or ""),
- GMNotes=cardData[num].GMN,
- Memo=date..buildCardNumber(cardData[num].num,3),
- CardID=(DeckID+num)*100,
- CustomDeck={[DeckID+num]=getCustomData(num)},
- LuaScriptState=cardData[num].typ
-}
+function buildCardNumber(cardNum,minDigit)
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
+  end
+ else
+  cardNum="0"
+ end
+ while #cardNum<minDigit do cardNum="0"..cardNum end
+ return cardNum
 end
 
 function getBox(obj,color,alt)
@@ -343,9 +455,6 @@ function getBox(obj,color,alt)
   boxID=math.random(-2147483648,2147483646)
   packScript='boxPulls='..boxPulls..'\nboxID='..tostring(boxID)..'\n'..packScript
  end
- if subSetID then
-  packScript='size='..tostring(size)..'\nsubSetID='..subSetID..'\n'..packScript
- end
  for c=1,36 do
   local packInBox=self.getData().ContainedObjects[1]
   packInBox.Transform=boxTrans
@@ -354,38 +463,6 @@ function getBox(obj,color,alt)
   boxData.ContainedObjects[c]=packInBox
  end
  spawnObjectData({data=boxData,position=spawnPos,rotation=self.GetRotation()})
-end
-
-function getCustomData(num)
- local image=cardData[num].image
- if not image then
-  local ID=setID
-  if subSetID and num>size then
-   ID=subSetID
-  end
-   image="https://images.pokemontcg.io/"..ID.."/"..cardData[num].num.."_hires.png?count="..buildCardNumber(cardData[num].num,1)
- end
- return{FaceURL=image,
-  BackURL="https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
-  NumWidth=1,
-  NumHeight=1,
-  BackIsHidden=true
- }
-end
-
-function buildCardNumber(cardNum,minDigit)
- local numOnly=string.gsub(cardNum,"[^%d]","")
- if numOnly~=cardNum then
-  local finalNum=(tonumber(numOnly)or 0)+500
-  for c in cardNum:gmatch"[^%d]" do
-   if c=="?"then c="}"end
-   if c=="!"then c="{"end
-   finalNum=string.byte(c)-65+finalNum
-  end
-  cardNum=tostring(finalNum)
- end
- while #cardNum<minDigit do cardNum="0"..cardNum end
- return cardNum
 end
 
 function getSteamUrl(url)
@@ -398,4 +475,19 @@ end
 
 function getRandomArt()
  return getSteamUrl(art[math.random(1,#art)])
+end
+
+function startsWith(input,prefix)
+ if not prefix then return false end
+ return string.sub(input,1,#prefix)==prefix
+end
+
+function getDeckData(spawnPos,cardRot,hands)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
 end

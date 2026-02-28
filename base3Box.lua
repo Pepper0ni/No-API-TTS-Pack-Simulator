@@ -6,6 +6,7 @@ setName="Fossil"
 DeckID=219
 date=19991010
 setID="base3"
+energyString="energy={}"
 dropSlots=[[{
 --1 U
   {cards={{"31","45"},"58"},num=3,size=16},

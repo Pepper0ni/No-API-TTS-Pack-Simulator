@@ -7,6 +7,7 @@ setName="Base"
 DeckID=0
 date="19990109"
 setID="base1"
+energyString="energy={}"
 dropSlots=[[{
 --1 U
  {cards={{"23","42"},{"80","90"},"96"},num=3,size=32},

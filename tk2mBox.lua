@@ -1,247 +1,68 @@
-setName="Nintendo Black Star Promos"
-DeckID=1789
-date="20030512"
-setID="np"
+setName="Trainer Kit EX Minun"
+DeckID=3105
+date="20060301"
+setID="tk2b"
 cardString=[[
-cardData={["001"]={
- name="Kyogre ex",
- GMN="00382003",
- typ="33",
- rar="P"
+cardData={["1"]={
+ name="Arcanine",
+ GMN="00059000",
+ typ="22"
 },
-["002"]={
- name="Groudon ex",
- GMN="00383003",
- typ="66",
- rar="P"
+["2"]={
+ name="Charmander",
+ GMN="00004000",
+ typ="22"
 },
-["003"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
-},
-["004"]={
- name="Grovyle",
- GMN="00253000",
- typ="11",
- rar="P"
-},
-["005"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
-},
-["006"]={
- name="Torchic",
- GMN="00255000",
+["3"]={
+ name="Charmeleon",
+ GMN="00005000",
  typ="22",
- rar="P"
+ rar="U"
 },
-["007"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
+["4"]={
+ name="Growlithe",
+ GMN="00058000",
+ typ="22"
 },
-["008"]={
- name="Torchic",
- GMN="00255000",
- typ="22",
- rar="P"
+["5"]={
+ name="Mareep",
+ GMN="00179000",
+ typ="44"
 },
-["009"]={
- name="Combusken",
- GMN="00256000",
- typ="22",
- rar="P"
+["6"]={
+ name="Minun",
+ GMN="00312000",
+ typ="44"
 },
-["010"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
+["7"]={
+ name="Vulpix",
+ GMN="00037000",
+ typ="22"
 },
-["011"]={
- name="Marshtomp",
- GMN="00259000",
- typ="33",
- rar="P"
+["8"]={
+ name="Celio's Network",
+ GMN="40000000",
+ typ="500"
 },
-["012"]={
- name="Pikachu",
- GMN="00025000",
- typ="44",
- rar="P"
-},
-["013"]={
- name="Meowth",
- GMN="00052000",
- typ="121",
- rar="P"
-},
-["014"]={
- name="Latias",
- GMN="00380000",
- typ="121",
- rar="P"
-},
-["015"]={
- name="Latios",
- GMN="00381000",
- typ="121",
- rar="P"
-},
-["016"]={
- name="Treecko",
- GMN="00252000",
- typ="11",
- rar="P"
-},
-["017"]={
- name="Torchic",
- GMN="00255000",
- typ="22",
- rar="P"
-},
-["018"]={
- name="Mudkip",
- GMN="00258000",
- typ="33",
- rar="P"
-},
-["019"]={
- name="Whismur",
- GMN="00293000",
- typ="121",
- rar="P"
-},
-["020"]={
- name="Ludicolo",
- GMN="00272000",
- typ="33",
- rar="P"
-},
-["021"]={
- name="Jirachi",
- GMN="00385000",
- typ="55",
- rar="P"
-},
-["022"]={
- name="Beldum",
- GMN="00374000",
- typ="88",
- rar="P"
-},
-["023"]={
- name="Metang",
- GMN="00375000",
- typ="88",
- rar="P"
-},
-["024"]={
- name="Chimecho",
- GMN="00358000",
- typ="55",
- rar="P"
-},
-["025"]={
- name="Flygon",
- GMN="00330000",
- typ="121",
- rar="P"
-},
-["026"]={
- name="Tropical Wind",
+["9"]={
+ name="Energy Search",
  GMN="30000000",
- typ="500",
- rar="P"
+ typ="500"
 },
-["027"]={
- name="Tropical Tidal Wave",
+["10"]={
+ name="Potion",
  GMN="30000000",
- typ="500",
- rar="P"
+ typ="500"
 },
-["028"]={
- name="Championship Arena",
- GMN="50000000",
- typ="500",
- rar="P"
+["11"]={
+ name="Fire Energy",
+ GMN="90000000",
+ typ="500"
 },
-["029"]={
- name="Celebi",
- GMN="00251000",
- typ="11",
- rar="P"
-},
-["030"]={
- name="Suicune",
- GMN="00245000",
- typ="33",
- rar="P"
-},
-["031"]={
- name="Moltres ex",
- GMN="00146003",
- typ="22",
- rar="P"
-},
-["032"]={
- name="Articuno ex",
- GMN="00144003",
- typ="33",
- rar="P"
-},
-["033"]={
- name="Zapdos ex",
- GMN="00145003",
- typ="44",
- rar="P"
-},
-["034"]={
- name="Typhlosion",
- GMN="00157000",
- typ="22",
- rar="P"
-},
-["035"]={
- name="Pikachu δ",
- GMN="00025000",
- typ="88",
- rar="P"
-},
-["036"]={
- name="Tropical Tidal Wave",
- GMN="30000000",
- typ="500",
- rar="P"
-},
-["037"]={
- name="Kyogre ex",
- GMN="00382003",
- typ="33",
- rar="P"
-},
-["038"]={
- name="Groudon ex",
- GMN="00383003",
- typ="66",
- rar="P"
-},
-["039"]={
- name="Rayquaza ex",
- GMN="00384003",
- typ="121",
- rar="P"
-},
-["040"]={
- name="Mew",
- GMN="00151000",
- typ="55",
- rar="P"
+["12"]={
+ name="Lightning Energy",
+ GMN="90000000",
+ typ="500"
 }}
 ]]
 

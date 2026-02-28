@@ -6,6 +6,7 @@ setName="Jungle"
 DeckID=102
 date="19990616"
 setID="base2"
+energyString="energy={}"
 dropSlots=[[{
 --1 U
   {cards={{"33","48"}},num=3,size=16},

@@ -2,718 +2,728 @@ setName="BW Black Star Promos"
 DeckID=5617
 date="20110301"
 setID="bwp"
-cardData= {{
+cardString=[[
+cardData={["BW01"]={
  name="Snivy",
- num="BW01",
- rar="P",
  GMN="00495000",
  typ="11",
-},{
- name="Tepig",
- num="BW02",
  rar="P",
+ ID=5618
+},
+["BW02"]={
+ name="Tepig",
  GMN="00498000",
  typ="22",
-},{
- name="Oshawott",
- num="BW03",
  rar="P",
+ ID=5619
+},
+["BW03"]={
+ name="Oshawott",
  GMN="00501000",
  typ="33",
-},{
- name="Reshiram",
- num="BW004",
  rar="P",
+ ID=5620
+},
+["BW004"]={
+ name="Reshiram",
  GMN="00643000",
  typ="22",
-},{
- name="Zekrom",
- num="BW005",
  rar="P",
+ ID=5621
+},
+["BW005"]={
+ name="Zekrom",
  GMN="00644000",
  typ="44",
-},{
- name="Snivy",
- num="BW06",
  rar="P",
+ ID=5622
+},
+["BW06"]={
+ name="Snivy",
  GMN="00495000",
  typ="11",
-},{
- name="Tepig",
- num="BW07",
  rar="P",
+ ID=5623
+},
+["BW07"]={
+ name="Tepig",
  GMN="00498000",
  typ="22",
-},{
- name="Oshawott",
- num="BW08",
  rar="P",
+ ID=5624
+},
+["BW08"]={
+ name="Oshawott",
  GMN="00501000",
  typ="33",
-},{
- name="Zoroark",
- num="BW09",
  rar="P",
+ ID=5625
+},
+["BW09"]={
+ name="Zoroark",
  GMN="00571000",
  typ="77",
-},{
- name="Axew",
- num="BW10",
  rar="P",
+ ID=5626
+},
+["BW10"]={
+ name="Axew",
  GMN="00610000",
  typ="121",
-},{
- name="Pansage",
- num="BW11",
  rar="P",
+ ID=5627
+},
+["BW11"]={
+ name="Pansage",
  GMN="00511000",
  typ="11",
-},{
- name="Zorua",
- num="BW12",
  rar="P",
+ ID=5628
+},
+["BW12"]={
+ name="Zorua",
  GMN="00570000",
  typ="77",
-},{
- name="Minccino",
- num="BW13",
  rar="P",
+ ID=5629
+},
+["BW13"]={
+ name="Minccino",
  GMN="00572000",
  typ="121",
-},{
- name="Pansage",
- num="BW14",
  rar="P",
+ ID=5630
+},
+["BW14"]={
+ name="Pansage",
  GMN="00511000",
  typ="11",
-},{
- name="Pidove",
- num="BW15",
  rar="P",
+ ID=5631
+},
+["BW15"]={
+ name="Pidove",
  GMN="00519000",
  typ="121",
-},{
- name="Axew",
- num="BW16",
  rar="P",
+ ID=5632
+},
+["BW16"]={
+ name="Axew",
  GMN="00610000",
  typ="121",
-},{
- name="Ducklett",
- num="BW17",
  rar="P",
+ ID=5633
+},
+["BW17"]={
+ name="Ducklett",
  GMN="00580000",
  typ="33",
-},{
- name="Darumaka",
- num="BW18",
  rar="P",
+ ID=5634
+},
+["BW18"]={
+ name="Darumaka",
  GMN="00554000",
  typ="22",
-},{
- name="Zoroark",
- num="BW19",
  rar="P",
+ ID=5635
+},
+["BW19"]={
+ name="Zoroark",
  GMN="00571000",
  typ="77",
-},{
- name="Serperior",
- num="BW20",
  rar="P",
+ ID=5636
+},
+["BW20"]={
+ name="Serperior",
  GMN="00497000",
  typ="11",
-},{
- name="Emboar",
- num="BW21",
  rar="P",
+ ID=5637
+},
+["BW21"]={
+ name="Emboar",
  GMN="00500000",
  typ="22",
-},{
- name="Samurott",
- num="BW22",
  rar="P",
+ ID=5638
+},
+["BW22"]={
+ name="Samurott",
  GMN="00503000",
  typ="33",
-},{
- name="Reshiram",
- num="BW23",
  rar="P",
+ ID=5639
+},
+["BW23"]={
+ name="Reshiram",
  GMN="00643000",
  typ="22",
-},{
- name="Zekrom",
- num="BW24",
  rar="P",
+ ID=5640
+},
+["BW24"]={
+ name="Zekrom",
  GMN="00644000",
  typ="44",
-},{
- name="Scraggy",
- num="BW25",
  rar="P",
+ ID=5641
+},
+["BW25"]={
+ name="Scraggy",
  GMN="00559000",
  typ="77",
-},{
- name="Axew",
- num="BW26",
  rar="P",
+ ID=5642
+},
+["BW26"]={
+ name="Axew",
  GMN="00610000",
  typ="121",
-},{
- name="Litwick",
- num="BW27",
  rar="P",
+ ID=5643
+},
+["BW27"]={
+ name="Litwick",
  GMN="00607000",
  typ="55",
-},{
- name="Tropical Beach",
- num="BW28",
  rar="P",
+ ID=5644
+},
+["BW28"]={
+ name="Tropical Beach",
  GMN="50000000",
  typ="500",
-},{
- name="Victory Cup",
- num="BW29",
  rar="P",
+ ID=5645
+},
+["BW29"]={
+ name="Victory Cup",
  GMN="30000000",
  typ="500",
-},{
- name="Victory Cup",
- num="BW30",
  rar="P",
+ ID=5646
+},
+["BW30"]={
+ name="Victory Cup",
  GMN="30000000",
  typ="500",
-},{
- name="Victory Cup",
- num="BW31",
  rar="P",
+ ID=5647
+},
+["BW31"]={
+ name="Victory Cup",
  GMN="30000000",
  typ="500",
-},{
+ rar="P",
+ ID=5648
+},
+["BW32"]={
  name="Victini",
- num="BW32",
- rar="P",
  GMN="00494000",
  typ="22",
-},{
- name="Riolu",
- num="BW33",
  rar="P",
+ ID=5649
+},
+["BW33"]={
+ name="Riolu",
  GMN="00447000",
  typ="66",
-},{
- name="Luxio",
- num="BW34",
  rar="P",
+ ID=5650
+},
+["BW34"]={
+ name="Luxio",
  GMN="00404000",
  typ="44",
-},{
- name="Meowth",
- num="BW35",
  rar="P",
+ ID=5651
+},
+["BW35"]={
+ name="Meowth",
  GMN="00052000",
  typ="121",
-},{
- name="Reshiram-EX",
- num="BW36",
  rar="P",
+ ID=5652
+},
+["BW36"]={
+ name="Reshiram-EX",
  GMN="00643003",
  typ="22",
-},{
- name="Kyurem-EX",
- num="BW37",
  rar="P",
+ ID=5653
+},
+["BW37"]={
+ name="Kyurem-EX",
  GMN="00646003",
  typ="33",
-},{
- name="Zekrom-EX",
- num="BW38",
  rar="P",
+ ID=5654
+},
+["BW38"]={
+ name="Zekrom-EX",
  GMN="00644003",
  typ="44",
-},{
- name="Battle City",
- num="BW39",
  rar="P",
+ ID=5655
+},
+["BW39"]={
+ name="Battle City",
  GMN="50000000",
  typ="500",
-},{
- name="Volcarona",
- num="BW40",
  rar="P",
+ ID=5656
+},
+["BW40"]={
+ name="Volcarona",
  GMN="00637000",
  typ="22",
-},{
- name="Thundurus",
- num="BW41",
  rar="P",
+ ID=5657
+},
+["BW41"]={
+ name="Thundurus",
  GMN="00642000",
  typ="44",
-},{
- name="Tornadus",
- num="BW42",
  rar="P",
+ ID=5658
+},
+["BW42"]={
+ name="Tornadus",
  GMN="00641000",
  typ="121",
-},{
- name="Landorus",
- num="BW43",
  rar="P",
+ ID=5659
+},
+["BW43"]={
+ name="Landorus",
  GMN="00645000",
  typ="66",
-},{
- name="Kyurem",
- num="BW44",
  rar="P",
+ ID=5660
+},
+["BW44"]={
+ name="Kyurem",
  GMN="00646000",
  typ="33",
-},{
- name="Mewtwo-EX",
- num="BW45",
  rar="P",
+ ID=5661
+},
+["BW45"]={
+ name="Mewtwo-EX",
  GMN="00150003",
  typ="55",
-},{
- name="Darkrai-EX",
- num="BW46",
  rar="P",
+ ID=5662
+},
+["BW46"]={
+ name="Darkrai-EX",
  GMN="00491003",
  typ="77",
-},{
- name="Rayquaza-EX",
- num="BW47",
  rar="P",
+ ID=5663
+},
+["BW47"]={
+ name="Rayquaza-EX",
  GMN="00384003",
  typ="110",
-},{
- name="Altaria",
- num="BW48",
  rar="P",
+ ID=5664
+},
+["BW48"]={
+ name="Altaria",
  GMN="00334000",
  typ="110",
-},{
- name="Lilligant",
- num="BW49",
  rar="P",
+ ID=5665
+},
+["BW49"]={
+ name="Lilligant",
  GMN="00549000",
  typ="11",
-},{
- name="Tropical Beach",
- num="BW50",
  rar="P",
+ ID=5666
+},
+["BW50"]={
+ name="Tropical Beach",
  GMN="50000000",
  typ="500",
-},{
- name="Crobat",
- num="BW51",
  rar="P",
+ ID=5667
+},
+["BW51"]={
+ name="Crobat",
  GMN="00042500",
  typ="55",
-},{
- name="Lillipup",
- num="BW52",
  rar="P",
+ ID=5668
+},
+["BW52"]={
+ name="Lillipup",
  GMN="00506000",
  typ="121",
-},{
- name="Flygon",
- num="BW53",
  rar="P",
+ ID=5669
+},
+["BW53"]={
+ name="Flygon",
  GMN="00330000",
  typ="110",
-},{
- name="Pikachu",
- num="BW54",
  rar="P",
+ ID=5670
+},
+["BW54"]={
+ name="Pikachu",
  GMN="00025000",
  typ="44",
-},{
- name="Elgyem",
- num="BW55",
  rar="P",
+ ID=5671
+},
+["BW55"]={
+ name="Elgyem",
  GMN="00605000",
  typ="55",
-},{
- name="Empoleon",
- num="BW56",
  rar="P",
+ ID=5672
+},
+["BW56"]={
+ name="Empoleon",
  GMN="00395000",
  typ="33",
-},{
- name="Haxorus",
- num="BW57",
  rar="P",
+ ID=5673
+},
+["BW57"]={
+ name="Haxorus",
  GMN="00612000",
  typ="110",
-},{
+ rar="P",
+ ID=5674
+},
+["BW58"]={
  name="Black Kyurem",
- num="BW58",
- rar="P",
  GMN="00646000",
  typ="110",
-},{
+ rar="P",
+ ID=5675
+},
+["BW59"]={
  name="White Kyurem",
- num="BW59",
- rar="P",
  GMN="00646000",
  typ="110",
-},{
- name="Keldeo",
- num="BW60",
  rar="P",
+ ID=5676
+},
+["BW60"]={
+ name="Keldeo",
  GMN="00647000",
  typ="33",
-},{
- name="Keldeo-EX",
- num="BW61",
  rar="P",
+ ID=5677
+},
+["BW61"]={
+ name="Keldeo-EX",
  GMN="00647003",
  typ="33",
-},{
+ rar="P",
+ ID=5678
+},
+["BW62"]={
  name="Black Kyurem-EX",
- num="BW62",
- rar="P",
  GMN="00646003",
  typ="110",
-},{
+ rar="P",
+ ID=5679
+},
+["BW63"]={
  name="White Kyurem-EX",
- num="BW63",
- rar="P",
  GMN="00646003",
  typ="110",
-},{
- name="Drifblim",
- num="BW64",
  rar="P",
+ ID=5680
+},
+["BW64"]={
+ name="Drifblim",
  GMN="00426000",
  typ="55",
-},{
- name="Jigglypuff",
- num="BW65",
  rar="P",
+ ID=5681
+},
+["BW65"]={
+ name="Jigglypuff",
  GMN="00039000",
  typ="121",
-},{
- name="Ninetales",
- num="BW66",
  rar="P",
+ ID=5682
+},
+["BW66"]={
+ name="Ninetales",
  GMN="00038000",
  typ="22",
-},{
- name="Ampharos",
- num="BW67",
  rar="P",
+ ID=5683
+},
+["BW67"]={
+ name="Ampharos",
  GMN="00181000",
  typ="44",
-},{
- name="Meloetta",
- num="BW68",
  rar="P",
+ ID=5684
+},
+["BW68"]={
+ name="Meloetta",
  GMN="00648000",
  typ="55",
-},{
- name="Meloetta",
- num="BW69",
  rar="P",
+ ID=5685
+},
+["BW69"]={
+ name="Meloetta",
  GMN="00648000",
  typ="66",
-},{
- name="Virizion",
- num="BW70",
  rar="P",
+ ID=5686
+},
+["BW70"]={
+ name="Virizion",
  GMN="00640000",
  typ="11",
-},{
- name="Terrakion",
- num="BW71",
  rar="P",
+ ID=5687
+},
+["BW71"]={
+ name="Terrakion",
  GMN="00639000",
  typ="66",
-},{
- name="Cobalion",
- num="BW72",
  rar="P",
+ ID=5688
+},
+["BW72"]={
+ name="Cobalion",
  GMN="00638000",
  typ="88",
-},{
- name="Darkrai",
- num="BW73",
  rar="P",
+ ID=5689
+},
+["BW73"]={
+ name="Darkrai",
  GMN="00491000",
  typ="77",
-},{
- name="Giratina",
- num="BW74",
  rar="P",
+ ID=5690
+},
+["BW74"]={
+ name="Giratina",
  GMN="00487000",
  typ="55",
-},{
- name="Metagross",
- num="BW75",
  rar="P",
+ ID=5691
+},
+["BW75"]={
+ name="Metagross",
  GMN="00376000",
  typ="55",
-},{
- name="Electrode",
- num="BW76",
  rar="P",
+ ID=5692
+},
+["BW76"]={
+ name="Electrode",
  GMN="00101000",
  typ="44",
-},{
- name="Pikachu",
- num="BW77",
  rar="P",
+ ID=5693
+},
+["BW77"]={
+ name="Pikachu",
  GMN="00025000",
  typ="44",
-},{
- name="Raichu",
- num="BW78",
  rar="P",
+ ID=5694
+},
+["BW78"]={
+ name="Raichu",
  GMN="00026000",
  typ="44",
-},{
- name="Landorus",
- num="BW79",
  rar="P",
+ ID=5695
+},
+["BW79"]={
+ name="Landorus",
  GMN="00645000",
  typ="66",
-},{
- name="Druddigon",
- num="BW80",
  rar="P",
+ ID=5696
+},
+["BW80"]={
+ name="Druddigon",
  GMN="00621000",
  typ="110",
-},{
- name="Thundurus-EX",
- num="BW81",
  rar="P",
+ ID=5697
+},
+["BW81"]={
+ name="Thundurus-EX",
  GMN="00642003",
  typ="44",
-},{
- name="Deoxys-EX",
- num="BW82",
  rar="P",
+ ID=5698
+},
+["BW82"]={
+ name="Deoxys-EX",
  GMN="00386003",
  typ="55",
-},{
- name="Lugia-EX",
- num="BW83",
  rar="P",
+ ID=5699
+},
+["BW83"]={
+ name="Lugia-EX",
  GMN="00249003",
  typ="121",
-},{
- name="Porygon-Z",
- num="BW84",
  rar="P",
+ ID=5700
+},
+["BW84"]={
+ name="Porygon-Z",
  GMN="00137700",
  typ="121",
-},{
- name="Lucario",
- num="BW85",
  rar="P",
+ ID=5701
+},
+["BW85"]={
+ name="Lucario",
  GMN="00448000",
  typ="66",
-},{
- name="Genesect",
- num="BW86",
  rar="P",
+ ID=5702
+},
+["BW86"]={
+ name="Genesect",
  GMN="00649000",
  typ="11",
-},{
- name="Leafeon",
- num="BW87",
  rar="P",
+ ID=5703
+},
+["BW87"]={
+ name="Leafeon",
  GMN="00136300",
  typ="11",
-},{
- name="Flareon",
- num="BW88",
  rar="P",
+ ID=5704
+},
+["BW88"]={
+ name="Flareon",
  GMN="00136000",
  typ="22",
-},{
- name="Vaporeon",
- num="BW89",
  rar="P",
+ ID=5705
+},
+["BW89"]={
+ name="Vaporeon",
  GMN="00134000",
  typ="33",
-},{
- name="Glaceon",
- num="BW90",
  rar="P",
+ ID=5706
+},
+["BW90"]={
+ name="Glaceon",
  GMN="00136400",
  typ="33",
-},{
- name="Jolteon",
- num="BW91",
  rar="P",
+ ID=5707
+},
+["BW91"]={
+ name="Jolteon",
  GMN="00135000",
  typ="44",
-},{
- name="Espeon",
- num="BW92",
  rar="P",
+ ID=5708
+},
+["BW92"]={
+ name="Espeon",
  GMN="00136100",
  typ="55",
-},{
- name="Umbreon",
- num="BW93",
  rar="P",
+ ID=5709
+},
+["BW93"]={
+ name="Umbreon",
  GMN="00136200",
  typ="77",
-},{
- name="Eevee",
- num="BW94",
  rar="P",
+ ID=5710
+},
+["BW94"]={
+ name="Eevee",
  GMN="00133000",
  typ="121",
-},{
- name="Champions Festival",
- num="BW95",
  rar="P",
+ ID=5711
+},
+["BW95"]={
+ name="Champions Festival",
  GMN="50000000",
  typ="500",
-},{
- name="Tornadus-EX",
- num="BW96",
  rar="P",
+ ID=5712
+},
+["BW96"]={
+ name="Tornadus-EX",
  GMN="00641003",
  typ="121",
-},{
- name="Eevee",
- num="BW97",
  rar="P",
+ ID=5713
+},
+["BW97"]={
+ name="Eevee",
  GMN="00133000",
  typ="121",
-},{
- name="Mew",
- num="BW98",
  rar="P",
+ ID=5714
+},
+["BW98"]={
+ name="Mew",
  GMN="00151000",
  typ="55",
-},{
- name="Genesect",
- num="BW99",
  rar="P",
+ ID=5715
+},
+["BW99"]={
+ name="Genesect",
  GMN="00649000",
  typ="11",
-},{
- name="N",
- num="BW100",
  rar="P",
+ ID=5716
+},
+["BW100"]={
+ name="N",
  GMN="40000000",
  typ="500",
-},{
- name="Genesect",
- num="BW101",
  rar="P",
+ ID=5717
+},
+["BW101"]={
+ name="Genesect",
  GMN="00649000",
- typ="11"}}
-
-boxScript=[[
- function onLoad(state)
- curColumn=tonumber(state)or 9
- local params={
-  function_owner=self,
-  font_size=180,
-  width=1500,
-  height=220,
-  position={0,1,3.5},
-  tooltip="The number of packs per column",
-  value=tostring(curColumn),
-  alignment=3,
-  input_function="SetColumn",
-  font_color={0,0,0},
- }
- self.createInput(params)
- butWrapper(params,{0,1,2.5},"Spread Compact","Spreads the contained objects close together","SpreadCompact")
- butWrapper(params,{0,1,3},"Spread Wide","Spreads the packs wide enough to not collide when opening.","SpreadWide")
-end
-
-function butWrapper(params,pos,label,tool,func)
- params.position=pos
- params.label=label
- params.tooltip=tool
- params.click_function=func
- self.createButton(params)
-end
-
-function SetColumn(obj,color,value,selected)
- if not selected then
-  curColumn=checkIfNum(value,1000,curColumn,color)
-  self.script_state=tostring(curColumn)
-  return tostring(curColumn)
- end
-end
-
-function checkIfNum(value,max,current,color)
- local numValue=tonumber(value)
- if numValue!=nil then
-  numValue=math.floor(numValue)
-  if numValue>0 then
-   if numValue<=max then return numValue else broadcastToColor("Enter a lower number.",color,{1,0,0})end
-  else broadcastToColor("Enter a number above 0.",color,{1,0,0})end
- else broadcastToColor("Enter a number.",color,{1,0,0})end
- return current
-end
-
-function SpreadCompact()
- Spread(-4)
-end
-
-function SpreadWide()
- Spread(-50)
-end
-
-function Spread(width)
- for c,pack in pairs(self.getObjects())do
-  self.takeObject({position=self.positionToWorld({width*math.floor((c-1)/curColumn),1,7+6*((c-1)%curColumn)}),smooth=true})
- end
-end
+ typ="11",
+ rar="P",
+ ID=5718
+}}
 ]]
-
-function makeDataString()
- local string=logString(cardData)
- string=string.gsub(string,"  +\""," ")
- string=string.gsub(string," 1: ","{{")
- string=string.gsub(string," +%d+: ","},{")
- string=string.gsub(string,"\": ","=\"")
- string=string.gsub(string,"([^%{%}])\n","%1\",\n")
- return 'dropSlots='..(dropSlots or"false")..'\npullRates='..(pullRates or"false")..'\nsetName="'..setName..'"\nsetID="'..setID..'"\nDeckID="'..DeckID..'"\ndate="'..date..'"\ncardData='..string..'"}}\n'
-end
-
-dataString=makeDataString()
 
 packData={}
 
 function onObjectLeaveContainer(cont,leaving)
  if cont~=self then return end
- if pullRates then
-  leaving.setCustomObject({diffuse=getRandomArt()})
-  leaving.setLuaScript(dataString..leaving.getLuaScript())
- end
 end
 
-function onNumberTyped(color,num)--credit Eldin
- for x=1,num do Wait.frames(function()self.deal(1,color)end,x)end
- return true
-end
-
-function onLoad(state)
- settings=Global.GetTable("PPacks")
- if state and state~="" then
-  state=json.parse(state)
-  curSet=state.set or 1
- else
-  curSet=1
- end
- if not settings then
-  if state.settings then settings=state.settings else settings={energy=1,on=true,spread=false,hundred=false,debug=false,slotTest=false,allGods=false}end
-  Global.SetTable("PPacks",settings)
- end
- self.max_typed_number=99
- saveData()
+function onLoad()
  setUpButtons()
- setUpContextMenu()
+ if not cardData then
+  self.setLuaScript(self.getLuaScript()..cardString)
+  self.Reload()
+ end
 end
 
 function setUpButtons()
@@ -724,9 +734,6 @@ function setUpButtons()
  font_size=450,
  }
  butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
- if noBox and pullRates then
-  butWrapper(params,{0,0.1,4},'Get a Box',"","getBox")
- end
 end
 
 function butWrapper(params,pos,label,tool,func)
@@ -737,48 +744,80 @@ function butWrapper(params,pos,label,tool,func)
  self.createButton(params)
 end
 
-function setUpContextMenu()
- if settings.debug then
-  addContextToggle("hundred","100 Packs")
-  addContextToggle("slotTest","Slot Test")
-  addContextToggle("on","Packs")
-  addContextToggle("allGods","All God Packs")
-  addSetting("Close Debug Menu","debug",false)
- end
- if settings.energy~=1 then addSetting("Enable Energy","energy",1)end
- if settings.energy~=0 then addSetting("Disable Energy","energy",0)end
- if settings.energy~=2 then addSetting("Replace Energy","energy",2)end
- addContextToggle("spread","Spread")
- if not settings.debug then addSetting("Open Debug Menu","debug",true)end
-end
-
-function addContextToggle(setting,desc)
- if settings[setting]then
-  addSetting("Disable "..desc,setting,false)
- else
-  addSetting("Enable "..desc,setting,true)
- end
-end
-
-function addSetting(text,setName,setting)
- self.addContextMenuItem(text,function()changeSettings(setName,setting)end)
-end
-
-function changeSettings(setting,value)
- settings[setting]=value
- self.clearContextMenu()
- setUpContextMenu(settings)
- Global.SetTable("PPacks",settings)
- saveData()
-end
-
 function getSet(obj,color,alt)
  local spawnPos=self.positionToWorld({0,1,7})
  packData=getDeckData(spawnPos,self.getRotation(),false)
- for a=1,#cardData do
-  addCard(packs,a)
+ for num,card in pairs(cardData) do
+  addCard(num,card)
  end
  local deck=spawnObjectData({data=packData})
+end
+
+function getTrueNumber(num,card)
+ if card.num then return card.num end
+ if startsWith(num,"E")then return num:sub(2)else return num end
+end
+
+function removeLeadingZeros(num)
+ if tonumber(num)then return string.format("%u", num)else return num end
+end
+
+function getDeckID(num,card)
+ return card.ID or DeckID+tonumber(getTrueNumber(num,card))
+end
+
+function addCard(num,card)
+ packData.DeckIDs[#packData.DeckIDs+1]=getDeckID(num,card)*100
+ packData.CustomDeck[getDeckID(num,card)]=getCustomData(getTrueNumber(num,card),card)
+ packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num,card)
+end
+
+function getCardTable(trans,num,card)
+ local des=card.setName
+ if not des then
+  if subSetID and startsWith(num,subSetPre)then
+   des=subSetName
+  else
+   des=setName
+  end
+ end
+ if card.num!=""then
+  des=des.." #"..getTrueNumber(num,card)
+ end
+ if card.rar then
+  des=des.." "..card.rar
+ end
+ return{Name="CardCustom",
+ Transform=trans,
+ Nickname=card.name,
+ Description=des,
+ GMNotes=card.GMN,
+ Memo=(card.date or date)..buildCardNumber(num,3),
+ CardID=getDeckID(num,card)*100,
+ CustomDeck={[getDeckID(num,card)]=getCustomData(num,card)},
+ LuaScriptState=card.typ
+}
+end
+
+function getCustomData(num,card)
+ local image=card.image
+ if not image then
+  if card.steamUrl then
+   image=getSteamUrl(card.steamUrl)
+  else
+   local ID=setID
+   if subSetID and startsWith(num,subSetPre) then
+    ID=subSetID
+   end
+   image="https://images.pokemontcg.io/"..ID.."/"..removeLeadingZeros(getTrueNumber(num,card)).."_hires.png?count="..buildCardNumber(num,1)
+  end
+ end
+ return{FaceURL=image,
+  BackURL=card.back or"https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
+ }
 end
 
 function getDeckData(spawnPos,cardRot,hands)
@@ -791,93 +830,26 @@ function getDeckData(spawnPos,cardRot,hands)
  }
 end
 
-function addCard(packs,num)
- packData.DeckIDs[#packData.DeckIDs+1]=(DeckID+num)*100
- packData.CustomDeck[DeckID+num]=getCustomData(num)
- packData.ContainedObjects[#packData.ContainedObjects+1]=getCardTable(packData.Transform,num)
-end
-
-
-function getCardTable(trans,num)
- return{Name="CardCustom",
- Transform=trans,
- Nickname=cardData[num].name,
- Description=setName.." #"..cardData[num].num.." "..(cardData[num].rar or ""),
- GMNotes=cardData[num].GMN,
- Memo=date..buildCardNumber(cardData[num].num,3),
- CardID=(DeckID+num)*100,
- CustomDeck={[DeckID+num]=getCustomData(num)},
- LuaScriptState=cardData[num].typ
-}
-end
-
-function getBox(obj,color,alt)
- local spawnPos=self.positionToWorld({0,1,7})
- local boxRot=self.GetRotation()
- local boxTrans={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=boxRot.x,rotY=boxRot.y,rotZ=boxRot.z,scaleX=0.5,scaleY=0.5,scaleZ=0.5}
- boxData={Name="Custom_Model_Bag",
-  Transform=boxTrans,
-  CustomMesh=self.getData().CustomMesh,
-  ContainedObjects={},
-  LuaScript=boxScript
- }
- boxData.CustomMesh.TypeIndex=6
- selfRot=self.GetRotation()
- packScript=cardString..energyString..dataString..self.getData().ContainedObjects[1].LuaScript
- if boxPulls then
-  boxID=math.random(-2147483648,2147483646)
-  packScript='boxPulls='..boxPulls..'\nboxID='..tostring(boxID)..'\n'..packScript
- end
- for c=1,36 do
-  local packInBox=self.getData().ContainedObjects[1]
-  packInBox.Transform=boxTrans
-  packInBox.LuaScript='packNum='..tostring(c)..'\n'..packScript
-  packInBox.CustomMesh.DiffuseURL=getRandomArt()
-  boxData.ContainedObjects[c]=packInBox
- end
- spawnObjectData({data=boxData,position=spawnPos,rotation=self.GetRotation()})
-end
-
-function getCustomData(num)
- local image=cardData[num].image
- if not image then
-  local ID=setID
-  if subSetID and num>size then
-   ID=subSetID
-  end
-   image="https://images.pokemontcg.io/"..ID.."/"..cardData[num].num.."_hires.png?count="..buildCardNumber(cardData[num].num,1)
- end
- return{FaceURL=image,
-  BackURL="https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
-  NumWidth=1,
-  NumHeight=1,
-  BackIsHidden=true
- }
+function startsWith(input,prefix)
+ if not prefix then return false end
+ return string.sub(input,1,#prefix)==prefix
 end
 
 function buildCardNumber(cardNum,minDigit)
- local numOnly=string.gsub(cardNum,"[^%d]","")
- if numOnly~=cardNum then
-  local finalNum=(tonumber(numOnly)or 0)+500
-  for c in cardNum:gmatch"[^%d]" do
-   if c=="?"then c="}"end
-   if c=="!"then c="{"end
-   finalNum=string.byte(c)-65+finalNum
+ if cardNum then
+  local numOnly=string.gsub(cardNum,"[^%d]","")
+  if numOnly~=cardNum then
+   local finalNum=(tonumber(numOnly)or 0)+500
+   for c in cardNum:gmatch"[^%d]" do
+    if c=="?"then c="}"end
+    if c=="!"then c="{"end
+    finalNum=string.byte(c)-65+finalNum
+   end
+   cardNum=tostring(finalNum)
   end
-  cardNum=tostring(finalNum)
+ else
+  cardNum="0"
  end
  while #cardNum<minDigit do cardNum="0"..cardNum end
  return cardNum
-end
-
-function getSteamUrl(url)
- if url then return"https://steamusercontent-a.akamaihd.net/ugc/"..url.."/"end
-end
-
-function saveData()
- self.script_state=json.serialize({set=curSet,settings=settings})
-end
-
-function getRandomArt()
- return getSteamUrl(art[math.random(1,#art)])
 end
